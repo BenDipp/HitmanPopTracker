@@ -1,0 +1,724 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+  {
+    "name": "ambrose_island_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/ambrose_island_0.png"
+  },
+  {
+    "name": "ambrose_island_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/ambrose_island_3.png"
+  },
+  {
+    "name": "ambrose_island_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/ambrose_island_2.png"
+  },
+  {
+    "name": "ambrose_island_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/ambrose_island_1.png"
+  },
+  {
+    "name": "ambrose_island_4",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/ambrose_island_4.png"
+  },
+  {
+    "name": "bangkok_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/bangkok_1.png"
+  },
+  {
+    "name": "bangkok_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/bangkok_0.png"
+  },
+  {
+    "name": "bangkok_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/bangkok_3.png"
+  },
+  {
+    "name": "bangkok_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/bangkok_2.png"
+  },
+  {
+    "name": "bangkok_4",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/bangkok_4.png"
+  },
+  {
+    "name": "bangkok_5",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/bangkok_5.png"
+  },
+  {
+    "name": "berlin_-2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/berlin_-2.png"
+  },
+  {
+    "name": "berlin_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/berlin_0.png"
+  },
+  {
+    "name": "berlin_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/berlin_2.png"
+  },
+  {
+    "name": "berlin_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/berlin_1.png"
+  },
+  {
+    "name": "berlin_-1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/berlin_-1.png"
+  },
+  {
+    "name": "berlin_4",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/berlin_4.png"
+  },
+  {
+    "name": "carpathian_mountains_2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/carpathian_mountains_2.png"
+  },
+  {
+    "name": "carpathian_mountains_1",
+    "location_size":20,
+    "location_border_thickness": 2,
+    "img": "images/maps/carpathian_mountains_1.png"
+  },
+  {
+    "name": "carpathian_mountains_3",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/carpathian_mountains_3.png"
+  },
+  {
+    "name": "carpathian_mountains_0",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/carpathian_mountains_0.png"
+  },
+  {
+    "name": "chongqing_5",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/chongqing_5.png"
+  },
+  {
+    "name": "chongqing_-3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/chongqing_-3.png"
+  },
+  {
+    "name": "chongqing_-2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/chongqing_-2.png"
+  },
+  {
+    "name": "chongqing_-1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/chongqing_-1.png"
+  },
+  {
+    "name": "chongqing_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/chongqing_1.png"
+  },
+  {
+    "name": "chongqing_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/chongqing_0.png"
+  },
+  {
+    "name": "chongqing_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/chongqing_2.png"
+  },
+  {
+    "name": "chongqing_4",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/chongqing_4.png"
+  },
+  {
+    "name": "chongqing_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/chongqing_3.png"
+  },
+  {
+    "name": "colorado_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/colorado_0.png"
+  },
+  {
+    "name": "colorado_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/colorado_1.png"
+  },
+  {
+    "name": "colorado_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/colorado_2.png"
+  },
+  {
+    "name": "dartmoor_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dartmoor_0.png"
+  },
+  {
+    "name": "dartmoor_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dartmoor_1.png"
+  },
+  {
+    "name": "dartmoor_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dartmoor_2.png"
+  },
+  {
+    "name": "dartmoor_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dartmoor_3.png"
+  },
+  {
+    "name": "dubai_4",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dubai_4.png"
+  },
+  {
+    "name": "dubai_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dubai_0.png"
+  },
+  {
+    "name": "dubai_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dubai_2.png"
+  },
+  {
+    "name": "dubai_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dubai_1.png"
+  },
+  {
+    "name": "dubai_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dubai_3.png"
+  },
+  {
+    "name": "dubai_5",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dubai_5.png"
+  },
+  {
+    "name": "dubai_-1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/dubai_-1.png"
+  },
+  {
+    "name": "haven_island_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/haven_island_1.png"
+  },
+  {
+    "name": "haven_island_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/haven_island_0.png"
+  },
+  {
+    "name": "haven_island_-2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/haven_island_-2.png"
+  },
+  {
+    "name": "haven_island_-3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/haven_island_-3.png"
+  },
+  {
+    "name": "haven_island_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/haven_island_2.png"
+  },
+  {
+    "name": "haven_island_-1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/haven_island_-1.png"
+  },
+  {
+    "name": "hawkes_bay_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/hawkes_bay_1.png"
+  },
+  {
+    "name": "hawkes_bay_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/hawkes_bay_0.png"
+  },
+  {
+    "name": "hokkaido_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/hokkaido_0.png"
+  },
+  {
+    "name": "hokkaido_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/hokkaido_1.png"
+  },
+  {
+    "name": "hokkaido_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/hokkaido_3.png"
+  },
+  {
+    "name": "hokkaido_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/hokkaido_2.png"
+  },
+  {
+    "name": "ica_facility_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/ica_facility_0.png"
+  },
+  {
+    "name": "ica_facility_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/ica_facility_1.png"
+  },
+  {
+    "name": "ica_facility_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/ica_facility_2.png"
+  },
+  {
+    "name": "isle_of_sgail_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/isle_of_sgail_3.png"
+  },
+  {
+    "name": "isle_of_sgail_5",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/isle_of_sgail_5.png"
+  },
+  {
+    "name": "isle_of_sgail_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/isle_of_sgail_1.png"
+  },
+  {
+    "name": "isle_of_sgail_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/isle_of_sgail_2.png"
+  },
+  {
+    "name": "isle_of_sgail_4",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/isle_of_sgail_4.png"
+  },
+  {
+    "name": "isle_of_sgail_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/isle_of_sgail_0.png"
+  },
+  {
+    "name": "isle_of_sgail_7",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/isle_of_sgail_7.png"
+  },
+  {
+    "name": "isle_of_sgail_6",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/isle_of_sgail_6.png"
+  },
+  {
+    "name": "isle_of_sgail_8",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/isle_of_sgail_8.png"
+  },
+  {
+    "name": "marrakesh_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/marrakesh_1.png"
+  },
+  {
+    "name": "marrakesh_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/marrakesh_0.png"
+  },
+  {
+    "name": "marrakesh_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/marrakesh_2.png"
+  },
+  {
+    "name": "marrakesh_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/marrakesh_3.png"
+  },
+  {
+    "name": "mendoza_4",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mendoza_4.png"
+  },
+  {
+    "name": "mendoza_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mendoza_0.png"
+  },
+  {
+    "name": "mendoza_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mendoza_2.png"
+  },
+  {
+    "name": "mendoza_6",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mendoza_6.png"
+  },
+  {
+    "name": "mendoza_5",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mendoza_5.png"
+  },
+  {
+    "name": "mendoza_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mendoza_1.png"
+  },
+  {
+    "name": "mendoza_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mendoza_3.png"
+  },
+  {
+    "name": "miami_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/miami_1.png"
+  },
+  {
+    "name": "miami_-1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/miami_-1.png"
+  },
+  {
+    "name": "miami_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/miami_2.png"
+  },
+  {
+    "name": "miami_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/miami_0.png"
+  },
+  {
+    "name": "miami_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/miami_3.png"
+  },
+  {
+    "name": "mumbai_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mumbai_2.png"
+  },
+  {
+    "name": "mumbai_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mumbai_3.png"
+  },
+  {
+    "name": "mumbai_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mumbai_1.png"
+  },
+  {
+    "name": "mumbai_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mumbai_0.png"
+  },
+  {
+    "name": "mumbai_-1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mumbai_-1.png"
+  },
+  {
+    "name": "mumbai_7",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mumbai_7.png"
+  },
+  {
+    "name": "mumbai_6",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mumbai_6.png"
+  },
+  {
+    "name": "mumbai_4",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mumbai_4.png"
+  },
+  {
+    "name": "mumbai_5",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/mumbai_5.png"
+  },
+  {
+    "name": "new_york_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/new_york_2.png"
+  },
+  {
+    "name": "new_york_-1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/new_york_-1.png"
+  },
+  {
+    "name": "new_york_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/new_york_3.png"
+  },
+  {
+    "name": "new_york_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/new_york_0.png"
+  },
+  {
+    "name": "new_york_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/new_york_1.png"
+  },
+  {
+    "name": "paris_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/paris_1.png"
+  },
+  {
+    "name": "paris_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/paris_3.png"
+  },
+  {
+    "name": "paris_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/paris_2.png"
+  },
+  {
+    "name": "paris_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/paris_0.png"
+  },
+  {
+    "name": "santa_fortuna_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/santa_fortuna_0.png"
+  },
+  {
+    "name": "santa_fortuna_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/santa_fortuna_1.png"
+  },
+  {
+    "name": "santa_fortuna_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/santa_fortuna_2.png"
+  },
+  {
+    "name": "santa_fortuna_-1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/santa_fortuna_-1.png"
+  },
+  {
+    "name": "sapienza_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/sapienza_3.png"
+  },
+  {
+    "name": "sapienza_7",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/sapienza_7.png"
+  },
+  {
+    "name": "sapienza_5",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/sapienza_5.png"
+  },
+  {
+    "name": "sapienza_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/sapienza_2.png"
+  },
+  {
+    "name": "sapienza_4",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/sapienza_4.png"
+  },
+  {
+    "name": "sapienza_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/sapienza_1.png"
+  },
+  {
+    "name": "sapienza_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/sapienza_0.png"
+  },
+  {
+    "name": "sapienza_6",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/sapienza_6.png"
+  },
+  {
+    "name": "whittleton_creek_0",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/whittleton_creek_0.png"
+  },
+  {
+    "name": "whittleton_creek_1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/whittleton_creek_1.png"
+  },
+  {
+    "name": "whittleton_creek_-1",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/whittleton_creek_-1.png"
+  },
+  {
+    "name": "whittleton_creek_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/whittleton_creek_2.png"
+  },
+  //MAN
+  {
+    "name": "hitmaps",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/hitmaps.png"
+  },
+  {
+    "name": "berlin_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/berlin_3.png"
+  }
+]
