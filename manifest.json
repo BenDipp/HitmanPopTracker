@@ -2,12 +2,12 @@
 
   "name": "HITMAN World of Assasination - Poptracker for Archipelago",
   "game_name": "HITMAN World of Assasination",
-  "package_version": "0.0.2",
+  "package_version": "0.0.3",
   "package_uid": "hitman_woa",
   "author": "BenDipp",
   "min_poptracker_version": "0.25.9",
   "target_poptracker_version": "0.28.0",
-  "versions_url": "https://raw.githubusercontent.com/BenDipp/HitmanPopTracker/refs/heads/main/versions.json",
+  "versions_url": "https://raw.githubusercontent.com/BenDipp/HitmanPopTracker/main/verisons.json",
   "variants": {
     "standard": {
       "display_name": "Itemsanity Tracker",
