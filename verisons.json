@@ -1,5 +1,13 @@
 {
     "versions" : [
+        {
+			"package_version": "0.0.2",
+			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.2/HitmanPopTracker.zip",
+			"sha256": "9172a1d0f106cb28f0736675a9735c69eb5913ece28429756966fa06144396d1",
+			"changelog": [
+				"removed unneeded .svg images from download"
+			]
+		},
        	    {
 			"package_version": "0.0.1",
 			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.1/HitmanPopTracker.zip",
