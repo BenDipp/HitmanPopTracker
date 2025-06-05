@@ -42,3 +42,26 @@ Tracker:AddLayouts("layouts/broadcast.jsonc")
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
+
+local maps = {"ICA Facility","Paris","Sapienza","Marrakesh","Bangkok","Colorado","Hokkaido","Hawkes Bay","Miami","Santa Fortuna","Mumbai","Whittleton Creek","Isle of Sgail","New York","Haven Island","Dubai","Dartmoor","Berlin","Chongqing","Mendoza","Carpathian Mountains","Ambrose Island"}
+
+local isUpdating = false
+function updateAllLocationsWithSameName(changedSection)
+    if isUpdating or changedSection.FullID:match("Completion Locations.*") then
+        return
+    end
+    isUpdating = true
+    local shortName = changedSection.FullID:match("([^/]+)$")
+    print(shortName)
+    local desiredCheckStatus = changedSection.AvailableChestCount
+    for i=1,22 do
+        local otherSection = Tracker:FindObjectForCode("@ItemList/"..maps[i].."/"..shortName) 
+
+       if otherSection ~= nil then
+        otherSection.AvailableChestCount = desiredCheckStatus
+       end
+    end
+    isUpdating = false
+end
+
+ScriptHost:AddOnLocationSectionChangedHandler("Keep Locations with Same name in sync", updateAllLocationsWithSameName)
