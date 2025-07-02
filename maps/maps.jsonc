@@ -110,7 +110,7 @@
   },
   {
     "name": "carpathian_mountains_1",
-    "location_size":20,
+    "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/carpathian_mountains_1.png"
   },
@@ -709,6 +709,12 @@
     "img": "images/maps/whittleton_creek_2.png"
   },
   //MAN
+  {
+    "name": "overview",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/overview.png"
+  },
   {
     "name": "hitmaps",
     "location_size": 10,

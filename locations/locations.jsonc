@@ -5,6 +5,7 @@
       {
         "name": "ICA Facility",
         "access_rules": ["Level - ICA Facility"],
+        "map_locations": [{ "map": "overview", "x": 50, "y": 50, "size": 30 }],
         "sections": [
           { "name": "Crowbar" },
           { "name": "Hammer" },
@@ -20,6 +21,7 @@
       {
         "name": "Paris",
         "access_rules": ["Level - Paris"],
+        "map_locations": [{ "map": "overview", "x": 339, "y": 50, "size": 30 }],
         "sections": [
           { "name": "Scissors" },
           { "name": "Screwdriver" },
@@ -52,6 +54,7 @@
       {
         "name": "Sapienza",
         "access_rules": ["Level - Sapienza"],
+        "map_locations": [{ "map": "overview", "x": 628, "y": 50, "size": 30 }],
         "sections": [
           { "name": "Wrench" },
           { "name": "Crowbar" },
@@ -101,6 +104,7 @@
       {
         "name": "Marrakesh",
         "access_rules": ["Level - Marrakesh"],
+        "map_locations": [{ "map": "overview", "x": 917, "y": 50, "size": 30 }],
         "sections": [
           { "name": "Brick" },
           { "name": "Screwdriver" },
@@ -132,6 +136,9 @@
       {
         "name": "Bangkok",
         "access_rules": ["Level - Bangkok"],
+        "map_locations": [
+          { "map": "overview", "x": 1206, "y": 50, "size": 30 }
+        ],
         "sections": [
           { "name": "Fire Extinguisher" },
           { "name": "Hammer" },
@@ -166,6 +173,9 @@
       {
         "name": "Colorado",
         "access_rules": ["Level - Colorado"],
+        "map_locations": [
+          { "map": "overview", "x": 1495, "y": 50, "size": 30 }
+        ],
         "sections": [
           { "name": "Apricot" },
           { "name": "Wrench" },
@@ -203,6 +213,9 @@
       {
         "name": "Hokkaido",
         "access_rules": ["Level - Hokkaido"],
+        "map_locations": [
+          { "map": "overview", "x": 1784, "y": 50, "size": 30 }
+        ],
         "sections": [
           { "name": "Cowboy Bust" },
           { "name": "Soda Can" },
@@ -235,6 +248,7 @@
       {
         "name": "Hawkes Bay",
         "access_rules": ["Level - Hawkes Bay"],
+        "map_locations": [{ "map": "overview", "x": 50, "y": 265, "size": 30 }],
         "sections": [
           { "name": "Screwdriver" },
           { "name": "Tactical Bartoli 12g" },
@@ -272,6 +286,9 @@
       {
         "name": "Miami",
         "access_rules": ["Level - Miami"],
+        "map_locations": [
+          { "map": "overview", "x": 339, "y": 265, "size": 30 }
+        ],
         "sections": [
           { "name": "Shovel" },
           { "name": "Crowbar" },
@@ -320,6 +337,9 @@
       {
         "name": "Santa Fortuna",
         "access_rules": ["Level - Santa Fortuna"],
+        "map_locations": [
+          { "map": "overview", "x": 628, "y": 265, "size": 30 }
+        ],
         "sections": [
           { "name": "Coin" },
           { "name": "Soda Can" },
@@ -376,6 +396,9 @@
       {
         "name": "Mumbai",
         "access_rules": ["Level - Mumbai"],
+        "map_locations": [
+          { "map": "overview", "x": 917, "y": 265, "size": 30 }
+        ],
         "sections": [
           { "name": "Kitchen Knife" },
           { "name": "Beak Staff" },
@@ -423,6 +446,9 @@
       {
         "name": "Whittleton Creek",
         "access_rules": ["Level - Whittleton Creek"],
+        "map_locations": [
+          { "map": "overview", "x": 1206, "y": 265, "size": 30 }
+        ],
         "sections": [
           { "name": "DAK X2 Covert Special" },
           { "name": "Bartoli 75R" },
@@ -480,6 +506,9 @@
       {
         "name": "Isle of Sgail",
         "access_rules": ["Level - Isle of Sgail"],
+        "map_locations": [
+          { "map": "overview", "x": 1495, "y": 265, "size": 30 }
+        ],
         "sections": [
           { "name": "Mace" },
           { "name": "Battle Axe" },
@@ -556,6 +585,9 @@
       {
         "name": "New York",
         "access_rules": ["Level - New York"],
+        "map_locations": [
+          { "map": "overview", "x": 1784, "y": 265, "size": 30 }
+        ],
         "sections": [
           { "name": "Fire Extinguisher" },
           { "name": "Letter Opener" },
@@ -614,6 +646,9 @@
       {
         "name": "Haven Island",
         "access_rules": ["Level - Haven Island"],
+        "map_locations": [
+          { "map": "overview", "x": 2073, "y": 265, "size": 30 }
+        ],
         "sections": [
           { "name": "Earphones" },
           { "name": "Soda Can" },
@@ -680,6 +715,7 @@
       {
         "name": "Dubai",
         "access_rules": ["Level - Dubai"],
+        "map_locations": [{ "map": "overview", "x": 50, "y": 480, "size": 30 }],
         "sections": [
           { "name": "Golf Club" },
           { "name": "Apple" },
@@ -726,6 +762,9 @@
       {
         "name": "Dartmoor",
         "access_rules": ["Level - Dartmoor"],
+        "map_locations": [
+          { "map": "overview", "x": 339, "y": 480, "size": 30 }
+        ],
         "sections": [
           { "name": "Hatchet" },
           { "name": "Driftwood Log" },
@@ -780,6 +819,9 @@
       {
         "name": "Berlin",
         "access_rules": ["Level - Berlin"],
+        "map_locations": [
+          { "map": "overview", "x": 628, "y": 480, "size": 30 }
+        ],
         "sections": [
           { "name": "Baseball Bat" },
           { "name": "Toy Tank" },
@@ -833,6 +875,9 @@
       {
         "name": "Chongqing",
         "access_rules": ["Level - Chongqing"],
+        "map_locations": [
+          { "map": "overview", "x": 917, "y": 480, "size": 30 }
+        ],
         "sections": [
           { "name": "Brick" },
           { "name": "Hammer" },
@@ -887,6 +932,9 @@
       {
         "name": "Mendoza",
         "access_rules": ["Level - Mendoza"],
+        "map_locations": [
+          { "map": "overview", "x": 1206, "y": 480, "size": 30 }
+        ],
         "sections": [
           { "name": "Emetic Rat Poison" },
           { "name": "Cannonball" },
@@ -949,6 +997,9 @@
       {
         "name": "Carpathian Mountains",
         "access_rules": ["Level - Carpathian Mountains"],
+        "map_locations": [
+          { "map": "overview", "x": 1495, "y": 480, "size": 30 }
+        ],
         "sections": [
           { "name": "Rusty Crowbar" },
           { "name": "Soap" },
@@ -975,6 +1026,9 @@
       {
         "name": "Ambrose Island",
         "access_rules": ["Level - Ambrose Island"],
+        "map_locations": [
+          { "map": "overview", "x": 1784, "y": 480, "size": 30 }
+        ],
         "sections": [
           { "name": "Fishing Line" },
           { "name": "Wooden Torch" },
@@ -39708,55 +39762,48 @@
         "sections": [
           {
             "name": "ICA Facility Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "ICA Facility Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "ICA Facility Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "ICA Facility Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "ica_facility_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "ica_facility_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 200, "y": 50, "size": 30 }
         ]
       },
       {
         "name": "Level - Paris Completion Checks",
         "access_rules": ["Level - Paris"],
         "sections": [
-          {
-            "name": "Paris Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
-          },
+          { "name": "Paris Completed", "visibility_rules": "option_complete" },
           {
             "name": "Paris Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Paris Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Paris Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "paris_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "paris_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 489, "y": 50, "size": 30 }
+        ]
       },
       {
         "name": "Level - Sapienza Completion Checks",
@@ -39764,26 +39811,25 @@
         "sections": [
           {
             "name": "Sapienza Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Sapienza Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Sapienza Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Sapienza Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "sapienza_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "sapienza_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 778, "y": 50, "size": 30 }
+        ]
       },
       {
         "name": "Level - Marrakesh Completion Checks",
@@ -39791,27 +39837,24 @@
         "sections": [
           {
             "name": "Marrakesh Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Marrakesh Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Marrakesh Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Marrakesh Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "marrakesh_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "marrakesh_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1067, "y": 50, "size": 30 }
         ]
       },
       {
@@ -39820,26 +39863,25 @@
         "sections": [
           {
             "name": "Bangkok Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Bangkok Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Bangkok Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Bangkok Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "bangkok_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "bangkok_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1356, "y": 50, "size": 30 }
+        ]
       },
       {
         "name": "Level - Colorado Completion Checks",
@@ -39847,26 +39889,25 @@
         "sections": [
           {
             "name": "Colorado Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Colorado Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Colorado Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Colorado Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "colorado_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "colorado_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1645, "y": 50, "size": 30 }
+        ]
       },
       {
         "name": "Level - Hokkaido Completion Checks",
@@ -39874,26 +39915,25 @@
         "sections": [
           {
             "name": "Hokkaido Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Hokkaido Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Hokkaido Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Hokkaido Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "hokkaido_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "hokkaido_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1934, "y": 50, "size": 30 }
+        ]
       },
       {
         "name": "Level - Hawkes Bay Completion Checks",
@@ -39901,55 +39941,48 @@
         "sections": [
           {
             "name": "Hawkes Bay Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Hawkes Bay Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Hawkes Bay Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Hawkes Bay Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "hawkes_bay_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "hawkes_bay_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 200, "y": 265, "size": 30 }
         ]
       },
       {
         "name": "Level - Miami Completion Checks",
         "access_rules": ["Level - Miami"],
         "sections": [
-          {
-            "name": "Miami Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
-          },
+          { "name": "Miami Completed", "visibility_rules": "option_complete" },
           {
             "name": "Miami Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Miami Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Miami Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "miami_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "miami_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 489, "y": 265, "size": 30 }
+        ]
       },
       {
         "name": "Level - Santa Fortuna Completion Checks",
@@ -39957,55 +39990,48 @@
         "sections": [
           {
             "name": "Santa Fortuna Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Santa Fortuna Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Santa Fortuna Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Santa Fortuna Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "santa_fortuna_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "santa_fortuna_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 778, "y": 265, "size": 30 }
         ]
       },
       {
         "name": "Level - Mumbai Completion Checks",
         "access_rules": ["Level - Mumbai"],
         "sections": [
-          {
-            "name": "Mumbai Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
-          },
+          { "name": "Mumbai Completed", "visibility_rules": "option_complete" },
           {
             "name": "Mumbai Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Mumbai Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Mumbai Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "mumbai_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "mumbai_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1067, "y": 265, "size": 30 }
+        ]
       },
       {
         "name": "Level - Whittleton Creek Completion Checks",
@@ -40013,27 +40039,24 @@
         "sections": [
           {
             "name": "Whittleton Creek Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Whittleton Creek Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Whittleton Creek Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Whittleton Creek Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "whittleton_creek_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "whittleton_creek_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1356, "y": 265, "size": 30 }
         ]
       },
       {
@@ -40042,27 +40065,24 @@
         "sections": [
           {
             "name": "Isle of Sgail Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Isle of Sgail Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Isle of Sgail Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Isle of Sgail Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "isle_of_sgail_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "isle_of_sgail_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1645, "y": 265, "size": 30 }
         ]
       },
       {
@@ -40071,26 +40091,25 @@
         "sections": [
           {
             "name": "New York Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "New York Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "New York Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "New York Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "new_york_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "new_york_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1934, "y": 265, "size": 30 }
+        ]
       },
       {
         "name": "Level - Haven Island Completion Checks",
@@ -40098,55 +40117,48 @@
         "sections": [
           {
             "name": "Haven Island Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Haven Island Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Haven Island Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Haven Island Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "haven_island_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "haven_island_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 2223, "y": 265, "size": 30 }
         ]
       },
       {
         "name": "Level - Dubai Completion Checks",
         "access_rules": ["Level - Dubai"],
         "sections": [
-          {
-            "name": "Dubai Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
-          },
+          { "name": "Dubai Completed", "visibility_rules": "option_complete" },
           {
             "name": "Dubai Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Dubai Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Dubai Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "dubai_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "dubai_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 200, "y": 480, "size": 30 }
+        ]
       },
       {
         "name": "Level - Dartmoor Completion Checks",
@@ -40154,53 +40166,48 @@
         "sections": [
           {
             "name": "Dartmoor Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Dartmoor Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Dartmoor Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Dartmoor Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "dartmoor_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "dartmoor_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 489, "y": 480, "size": 30 }
+        ]
       },
       {
         "name": "Level - Berlin Completion Checks",
         "access_rules": ["Level - Berlin"],
         "sections": [
-          {
-            "name": "Berlin Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
-          },
+          { "name": "Berlin Completed", "visibility_rules": "option_complete" },
           {
             "name": "Berlin Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Berlin Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Berlin Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "berlin_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "berlin_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 778, "y": 480, "size": 30 }
+        ]
       },
       {
         "name": "Level - Chongqing Completion Checks",
@@ -40208,27 +40215,24 @@
         "sections": [
           {
             "name": "Chongqing Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Chongqing Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Chongqing Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Chongqing Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "chongqing_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "chongqing_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1067, "y": 480, "size": 30 }
         ]
       },
       {
@@ -40237,26 +40241,25 @@
         "sections": [
           {
             "name": "Mendoza Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Mendoza Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Mendoza Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Mendoza Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
-        "map_locations": [{ "map": "mendoza_0", "x": 20, "y": 20, "size": 30 }]
+        "map_locations": [
+          { "map": "mendoza_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1356, "y": 480, "size": 30 }
+        ]
       },
       {
         "name": "Level - Carpathian Mountains Completion Checks",
@@ -40264,27 +40267,24 @@
         "sections": [
           {
             "name": "Carpathian Mountains Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Carpathian Mountains Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Carpathian Mountains Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Carpathian Mountains Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "carpathian_mountains_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "carpathian_mountains_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1645, "y": 480, "size": 30 }
         ]
       },
       {
@@ -40293,27 +40293,24 @@
         "sections": [
           {
             "name": "Ambrose Island Completed",
-            "visibility_rules": "option_complete",
-            "item_count": 1
+            "visibility_rules": "option_complete"
           },
           {
             "name": "Ambrose Island Completed - Silent Assassin",
-            "visibility_rules": "option_sa",
-            "item_count": 1
+            "visibility_rules": "option_sa"
           },
           {
             "name": "Ambrose Island Completed - Suit Only",
-            "visibility_rules": "option_so",
-            "item_count": 1
+            "visibility_rules": "option_so"
           },
           {
             "name": "Ambrose Island Completed - Silent Assassin, Suit Only",
-            "visibility_rules": "option_saso",
-            "item_count": 1
+            "visibility_rules": "option_saso"
           }
         ],
         "map_locations": [
-          { "map": "ambrose_island_0", "x": 20, "y": 20, "size": 30 }
+          { "map": "ambrose_island_0", "x": 20, "y": 20, "size": 30 },
+          { "map": "overview", "x": 1934, "y": 480, "size": 30 }
         ]
       }
     ]
