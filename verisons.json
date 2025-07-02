@@ -1,5 +1,16 @@
 {
     "versions" : [
+		{
+			"package_version": "0.0.4",
+			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.4/HitmanPopTracker.zip",
+			"sha256": "3ebe87369bb504fdc2cc79c7518d5b1b0dd5b1bbe876af5f09089e76895fa0b3",
+			"changelog": [
+				"Seperated accessibily checks per map.",
+				"Spedup launch by not forcing poptracker to rename duplicates",
+				"Bring Item Ids inline with current apworld version",
+				"Added overview page to show all checks on one map"
+			]
+        },
         {
 			"package_version": "0.0.3",
 			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.3/HitmanPopTracker.zip",

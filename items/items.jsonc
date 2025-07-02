@@ -142,7 +142,8 @@
     "name": "Level completion checks",
     "type": "toggle",
     "img": "images/items/complete.png",
-    "codes": "option_complete"
+    "codes": "option_complete",
+    "initial_active_state": true
   },
   {
     "name": "Silent Assassin checks",
