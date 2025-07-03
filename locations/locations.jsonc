@@ -474,7 +474,7 @@
           { "name": "Fire Axe" },
           { "name": "Fire Extinguisher" },
           { "name": "Flash Grenade" },
-          { "name": "Fusil G1-4/C" },
+          { "name": "Fusil G1-4|C" },
           { "name": "Fusil G2" },
           { "name": "Golf Club" },
           { "name": "Hackl 9S Covert" },
@@ -10167,11 +10167,11 @@
         "name": "718",
         "children": [
           {
-            "name": "Tactical Bartoli 12g",
+            "name": "Tactical Bartoli 12G",
             "sections": [
               {
                 "name": "Itempickup",
-                "ref": "ItemList/Hawkes Bay/Tactical Bartoli 12g"
+                "ref": "ItemList/Hawkes Bay/Tactical Bartoli 12G"
               }
             ],
             "map_locations": [{ "map": "hawkes_bay_1", "x": 342, "y": 252 }]
@@ -10182,9 +10182,9 @@
         "name": "719",
         "children": [
           {
-            "name": "Bartoli 75s",
+            "name": "Bartoli 75S",
             "sections": [
-              { "name": "Itempickup", "ref": "ItemList/Hawkes Bay/Bartoli 75s" }
+              { "name": "Itempickup", "ref": "ItemList/Hawkes Bay/Bartoli 75S" }
             ],
             "map_locations": [{ "map": "hawkes_bay_1", "x": 342, "y": 252 }]
           }
@@ -16199,11 +16199,11 @@
         "name": "1175",
         "children": [
           {
-            "name": "Expired Can Of Spaghetti Sauce",
+            "name": "Expired Can of Spaghetti Sauce",
             "sections": [
               {
                 "name": "Itempickup",
-                "ref": "ItemList/Santa Fortuna/Expired Can Of Spaghetti Sauce"
+                "ref": "ItemList/Santa Fortuna/Expired Can of Spaghetti Sauce"
               }
             ],
             "map_locations": [{ "map": "santa_fortuna_0", "x": 191, "y": 472 }]
@@ -16214,11 +16214,11 @@
         "name": "1176",
         "children": [
           {
-            "name": "Expired Can Of Spaghetti Sauce",
+            "name": "Expired Can of Spaghetti Sauce",
             "sections": [
               {
                 "name": "Itempickup",
-                "ref": "ItemList/Santa Fortuna/Expired Can Of Spaghetti Sauce"
+                "ref": "ItemList/Santa Fortuna/Expired Can of Spaghetti Sauce"
               }
             ],
             "map_locations": [{ "map": "santa_fortuna_0", "x": 205, "y": 496 }]
@@ -20951,11 +20951,11 @@
         "name": "1528",
         "children": [
           {
-            "name": "Fusil G1-4/C",
+            "name": "Fusil G1-4|C",
             "sections": [
               {
                 "name": "Itempickup",
-                "ref": "ItemList/Whittleton Creek/Fusil G1-4/C"
+                "ref": "ItemList/Whittleton Creek/Fusil G1-4|C"
               }
             ],
             "map_locations": [
@@ -26767,7 +26767,7 @@
             "name": "Sacrificial Knife",
             "sections": [
               {
-                "name": "Golden Idol must be placed below (Level 1)",
+                "name": "Golden Idol must be placed below (Level 1) while wearing the Burial Robes",
                 "ref": "ItemList/Isle of Sgail/Sacrificial Knife"
               }
             ],

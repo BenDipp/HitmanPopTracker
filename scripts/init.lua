@@ -52,7 +52,7 @@ function updateAllLocationsWithSameName(changedSection)
     end
     isUpdating = true
     local shortName = changedSection.FullID:match("([^/]+)$")
-    print(shortName)
+    --print(shortName)
     local desiredCheckStatus = changedSection.AvailableChestCount
     for i=1,22 do
         local otherSection = Tracker:FindObjectForCode("@ItemList/"..maps[i].."/"..shortName) 
