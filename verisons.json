@@ -3,7 +3,7 @@
 		{
 			"package_version": "0.0.5",
 			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.5/HitmanPopTracker.zip",
-			"sha256": "sha256:9e0cb04d44c83ce66027fb1ddc826e93b666083750f7948ccb24fe8e3419f3f0",
+			"sha256": "79081a1322d479fdb444b552c234f211a9de6c053c871a4cc1fa825a50f30e52",
 			"changelog": [
     			"Sorted Overview entries and fixed typos in original dataset",
     			"Fixed issues with the \"Fusil G1-4/C\" having a \"/\" in it's name",
