@@ -1,6 +1,18 @@
 {
     "versions" : [
 		{
+			"package_version": "0.0.5",
+			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.5/HitmanPopTracker.zip",
+			"sha256": "sha256:9e0cb04d44c83ce66027fb1ddc826e93b666083750f7948ccb24fe8e3419f3f0",
+			"changelog": [
+    			"Sorted Overview entries and fixed typos in original dataset",
+    			"Fixed issues with the \"Fusil G1-4/C\" having a \"/\" in it's name",
+    			"Fixed Carpathian Mountains Loactions not using the correct offset for each, map",
+    			"Added support for master-difficulty logic",
+    			"Added an overview-only variant which should be more performant"
+			]
+        },
+		{
 			"package_version": "0.0.4",
 			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.4/HitmanPopTracker.zip",
 			"sha256": "3ebe87369bb504fdc2cc79c7518d5b1b0dd5b1bbe876af5f09089e76895fa0b3",
