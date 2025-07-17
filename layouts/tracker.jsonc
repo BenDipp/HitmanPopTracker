@@ -22,11 +22,11 @@
           "type": "tabbed",
           "tabs": [
             {
-            "title":"Overview",
-            "content":{
-              "type":"map",
-              "maps":["overview"]
-            }
+              "title": "Overview",
+              "content": {
+                "type": "map",
+                "maps": ["overview"]
+              }
             },
             {
               "title": "Hitman 1",
@@ -1365,6 +1365,18 @@
           "item_margin": "6, 1",
           "h_alignment": "left",
           "rows": [["option_complete", "option_sa", "option_so", "option_saso"]]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Difficulty",
+        "dock": "left",
+        "margin": "0,0,3,0",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "6, 1",
+          "h_alignment": "left",
+          "rows": [["option_master"]]
         }
       }
     ]

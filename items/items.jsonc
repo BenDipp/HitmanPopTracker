@@ -162,5 +162,28 @@
     "type": "toggle",
     "img": "images/items/saso.png",
     "codes": "option_saso"
+  },
+  {
+    "name": "Master",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx":2,
+    "stages": [
+      {
+        "img": "images/items/master.png",
+        "codes": "option_master"
+      },
+      {
+        "name": "Casual",
+        "img": "images/items/casual.png",
+        "codes": "option_non_master"
+      },
+      {
+        "name": "Professional",
+        "img": "images/items/pro.png",
+        "codes": "option_non_master"
+      }
+    ]
   }
 ]

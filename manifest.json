@@ -14,6 +14,12 @@
       "flags": [
         "ap"
       ]
+    },
+    "var_overview_only": {
+      "display_name": "Overview Only",
+      "flags": [
+        "ap"
+      ]
     }
   }
 }

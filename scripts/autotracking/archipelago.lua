@@ -83,6 +83,14 @@ function apply_slot_data(slot_data)
 	Tracker:FindObjectForCode("option_sa").Active = slot_data["check_for_sa"]
 	Tracker:FindObjectForCode("option_so").Active = slot_data["check_for_so"]
 	Tracker:FindObjectForCode("option_saso").Active = slot_data["check_for_saso"]
+
+	if slot_data["difficulty"] == "easy" then
+		Tracker:FindObjectForCode("option_master").CurrentStage = 1
+	elseif slot_data["difficulty"] == "normal" then
+		Tracker:FindObjectForCode("option_master").CurrentStage = 2
+	else
+		Tracker:FindObjectForCode("option_master").CurrentStage = 0
+	end
 end
 
 -- called right after an AP slot is connected
