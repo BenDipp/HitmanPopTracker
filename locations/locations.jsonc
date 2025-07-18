@@ -40103,7 +40103,7 @@
             "name": "Flash Grenade",
             "sections": [
               {
-                "name": " Requires Rusty Old Nail / Rusty Crowbar to unlock Cabinet",
+                "name": "Requires Rusty Old Nail or Rusty Crowbar to unlock Cabinet",
                 "ref": "ItemList/Carpathian Mountains/Flash Grenade"
               }
             ],
