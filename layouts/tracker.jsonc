@@ -1363,6 +1363,7 @@
         "content": {
           "type": "itemgrid",
           "item_margin": "6, 1",
+          "item_size":"64,64",
           "h_alignment": "left",
           "rows": [["option_complete", "option_sa", "option_so", "option_saso"]]
         }
@@ -1375,6 +1376,7 @@
         "content": {
           "type": "itemgrid",
           "item_margin": "6, 1",
+          "item_size":"64,64",
           "h_alignment": "left",
           "rows": [["option_master"]]
         }
