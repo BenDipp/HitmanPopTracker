@@ -38,18 +38,20 @@
         "content": {
           "type": "itemgrid",
           "item_margin": "6, 1",
+          "item_size": "64,64",
           "h_alignment": "left",
           "rows": [["option_complete", "option_sa", "option_so", "option_saso"]]
         }
       },
       {
         "type": "group",
-        "header": "Master difficulty",
+        "header": "Difficulty",
         "dock": "left",
         "margin": "0,0,3,0",
         "content": {
           "type": "itemgrid",
           "item_margin": "6, 1",
+          "item_size": "64,64",
           "h_alignment": "left",
           "rows": [["option_master"]]
         }
