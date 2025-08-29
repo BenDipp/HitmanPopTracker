@@ -168,7 +168,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "initial_stage_idx":2,
+    "initial_stage_idx": 2,
     "stages": [
       {
         "img": "images/items/master.png",
@@ -185,5 +185,159 @@
         "codes": "option_non_master"
       }
     ]
+  },
+  {
+    "name": "Enable ICA Facility",
+    "type": "toggle",
+    "img": "images/items/level_ica.png",
+    "codes": "option_enable_ica_facility",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Bangkok",
+    "type": "toggle",
+    "img": "images/items/flag_thailand.png",
+    "codes": "option_enable_bangkok",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Colorado",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_enable_colorado",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Hokkaido",
+    "type": "toggle",
+    "img": "images/items/flag_japan.png",
+    "codes": "option_enable_hokkaido",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Marrakesh",
+    "type": "toggle",
+    "img": "images/items/flag_morocco.png",
+    "codes": "option_enable_marrakesh",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Paris",
+    "type": "toggle",
+    "img": "images/items/flag_france.png",
+    "codes": "option_enable_paris",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Sapienza",
+    "type": "toggle",
+    "img": "images/items/flag_italy.png",
+    "codes": "option_enable_sapienza",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Santa Fortuna",
+    "type": "toggle",
+    "img": "images/items/flag_colombia.png",
+    "codes": "option_enable_santa_fortuna",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Miami",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_enable_miami",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Mumbai",
+    "type": "toggle",
+    "img": "images/items/flag_india.png",
+    "codes": "option_enable_mumbai",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Hawkes Bay",
+    "type": "toggle",
+    "img": "images/items/flag_new_zealand.png",
+    "codes": "option_enable_hawkes_bay",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Whittleton Creek",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_enable_whittleton_creek",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Isle of Sgail",
+    "type": "toggle",
+    "img": "images/items/flag_ark_society.png",
+    "codes": "option_enable_isle_of_sgail",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable New York",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_enable_new_york",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Haven Island",
+    "type": "toggle",
+    "img": "images/items/flag_maldives.png",
+    "codes": "option_enable_haven_island",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Dartmoor",
+    "type": "toggle",
+    "img": "images/items/flag_united_kingdom.png",
+    "codes": "option_enable_dartmoor",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Berlin",
+    "type": "toggle",
+    "img": "images/items/flag_germany.png",
+    "codes": "option_enable_berlin",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Mendoza",
+    "type": "toggle",
+    "img": "images/items/flag_argentina.png",
+    "codes": "option_enable_mendoza",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Dubai",
+    "type": "toggle",
+    "img": "images/items/flag_united_arab_emirates.png",
+    "codes": "option_enable_dubai",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Ambrose Island",
+    "type": "toggle",
+    "img": "images/items/flag_pirate.png",
+    "codes": "option_enable_ambrose_island",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Chongqing",
+    "type": "toggle",
+    "img": "images/items/flag_china.png",
+    "codes": "option_enable_chongqing",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Carpathian Mountains",
+    "type": "toggle",
+    "img": "images/items/flag_romania.png",
+    "codes": "option_enable_carpathian_mountains",
+    "initial_active_state": true
   }
 ]

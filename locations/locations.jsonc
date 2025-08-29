@@ -5,6 +5,7 @@
       {
         "name": "ICA Facility",
         "access_rules": ["Level - ICA Facility"],
+        "visibility_rules": "option_enable_ica_facility",
         "map_locations": [{ "map": "overview", "x": 50, "y": 50, "size": 30 }],
         "sections": [
           { "name": "Brick" },
@@ -21,6 +22,7 @@
       {
         "name": "Paris",
         "access_rules": ["Level - Paris"],
+        "visibility_rules": "option_enable_paris",
         "map_locations": [{ "map": "overview", "x": 339, "y": 50, "size": 30 }],
         "sections": [
           { "name": "Bartoli 75R" },
@@ -62,6 +64,7 @@
       {
         "name": "Sapienza",
         "access_rules": ["Level - Sapienza"],
+        "visibility_rules": "option_enable_sapienza",
         "map_locations": [{ "map": "overview", "x": 628, "y": 50, "size": 30 }],
         "sections": [
           { "name": "Amputation Knife" },
@@ -112,6 +115,7 @@
       {
         "name": "Marrakesh",
         "access_rules": ["Level - Marrakesh"],
+        "visibility_rules": "option_enable_marrakesh",
         "map_locations": [{ "map": "overview", "x": 917, "y": 50, "size": 30 }],
         "sections": [
           { "name": "Bartoli 75R" },
@@ -144,6 +148,7 @@
       {
         "name": "Bangkok",
         "access_rules": ["Level - Bangkok"],
+        "visibility_rules": "option_enable_bangkok",
         "map_locations": [
           { "map": "overview", "x": 1206, "y": 50, "size": 30 }
         ],
@@ -181,6 +186,7 @@
       {
         "name": "Colorado",
         "access_rules": ["Level - Colorado"],
+        "visibility_rules": "option_enable_colorado",
         "map_locations": [
           { "map": "overview", "x": 1495, "y": 50, "size": 30 }
         ],
@@ -221,6 +227,7 @@
       {
         "name": "Hokkaido",
         "access_rules": ["Level - Hokkaido"],
+        "visibility_rules": "option_enable_hokkaido",
         "map_locations": [
           { "map": "overview", "x": 1784, "y": 50, "size": 30 }
         ],
@@ -256,6 +263,7 @@
       {
         "name": "Hawkes Bay",
         "access_rules": ["Level - Hawkes Bay"],
+        "visibility_rules": "option_enable_hawkes_bay",
         "map_locations": [{ "map": "overview", "x": 50, "y": 265, "size": 30 }],
         "sections": [
           { "name": "Apple" },
@@ -303,6 +311,7 @@
       {
         "name": "Miami",
         "access_rules": ["Level - Miami"],
+        "visibility_rules": "option_enable_miami",
         "map_locations": [
           { "map": "overview", "x": 339, "y": 265, "size": 30 }
         ],
@@ -354,6 +363,7 @@
       {
         "name": "Santa Fortuna",
         "access_rules": ["Level - Santa Fortuna"],
+        "visibility_rules": "option_enable_santa_fortuna",
         "map_locations": [
           { "map": "overview", "x": 628, "y": 265, "size": 30 }
         ],
@@ -413,6 +423,7 @@
       {
         "name": "Mumbai",
         "access_rules": ["Level - Mumbai"],
+        "visibility_rules": "option_enable_mumbai",
         "map_locations": [
           { "map": "overview", "x": 917, "y": 265, "size": 30 }
         ],
@@ -463,6 +474,7 @@
       {
         "name": "Whittleton Creek",
         "access_rules": ["Level - Whittleton Creek"],
+        "visibility_rules": "option_enable_whittleton_creek",
         "map_locations": [
           { "map": "overview", "x": 1206, "y": 265, "size": 30 }
         ],
@@ -523,6 +535,7 @@
       {
         "name": "Isle of Sgail",
         "access_rules": ["Level - Isle of Sgail"],
+        "visibility_rules": "option_enable_isle_of_sgail",
         "map_locations": [
           { "map": "overview", "x": 1495, "y": 265, "size": 30 }
         ],
@@ -602,6 +615,7 @@
       {
         "name": "New York",
         "access_rules": ["Level - New York"],
+        "visibility_rules": "option_enable_new_york",
         "map_locations": [
           { "map": "overview", "x": 1784, "y": 265, "size": 30 }
         ],
@@ -663,6 +677,7 @@
       {
         "name": "Haven Island",
         "access_rules": ["Level - Haven Island"],
+        "visibility_rules": "option_enable_haven_island",
         "map_locations": [
           { "map": "overview", "x": 2073, "y": 265, "size": 30 }
         ],
@@ -732,6 +747,7 @@
       {
         "name": "Dubai",
         "access_rules": ["Level - Dubai"],
+        "visibility_rules": "option_enable_dubai",
         "map_locations": [{ "map": "overview", "x": 50, "y": 480, "size": 30 }],
         "sections": [
           { "name": "Apple" },
@@ -779,6 +795,7 @@
       {
         "name": "Dartmoor",
         "access_rules": ["Level - Dartmoor"],
+        "visibility_rules": "option_enable_dartmoor",
         "map_locations": [
           { "map": "overview", "x": 339, "y": 480, "size": 30 }
         ],
@@ -836,6 +853,7 @@
       {
         "name": "Berlin",
         "access_rules": ["Level - Berlin"],
+        "visibility_rules": "option_enable_berlin",
         "map_locations": [
           { "map": "overview", "x": 628, "y": 480, "size": 30 }
         ],
@@ -892,6 +910,7 @@
       {
         "name": "Chongqing",
         "access_rules": ["Level - Chongqing"],
+        "visibility_rules": "option_enable_chongqing",
         "map_locations": [
           { "map": "overview", "x": 917, "y": 480, "size": 30 }
         ],
@@ -949,6 +968,7 @@
       {
         "name": "Mendoza",
         "access_rules": ["Level - Mendoza"],
+        "visibility_rules": "option_enable_mendoza",
         "map_locations": [
           { "map": "overview", "x": 1206, "y": 480, "size": 30 }
         ],
@@ -1014,6 +1034,7 @@
       {
         "name": "Carpathian Mountains",
         "access_rules": ["Level - Carpathian Mountains"],
+        "visibility_rules": "option_enable_carpathian_mountains",
         "map_locations": [
           { "map": "overview", "x": 1495, "y": 480, "size": 30 }
         ],
@@ -1043,6 +1064,7 @@
       {
         "name": "Ambrose Island",
         "access_rules": ["Level - Ambrose Island"],
+        "visibility_rules": "option_enable_ambrose_island",
         "map_locations": [
           { "map": "overview", "x": 1784, "y": 480, "size": 30 }
         ],
@@ -40838,7 +40860,13 @@
         ],
         "map_locations": [
           { "map": "ica_facility_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 200, "y": 50, "size": 30 }
+          {
+            "map": "overview",
+            "x": 200,
+            "y": 50,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_ica_facility"
+          }
         ]
       },
       {
@@ -40861,7 +40889,13 @@
         ],
         "map_locations": [
           { "map": "paris_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 489, "y": 50, "size": 30 }
+          {
+            "map": "overview",
+            "x": 489,
+            "y": 50,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_paris"
+          }
         ]
       },
       {
@@ -40887,7 +40921,13 @@
         ],
         "map_locations": [
           { "map": "sapienza_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 778, "y": 50, "size": 30 }
+          {
+            "map": "overview",
+            "x": 778,
+            "y": 50,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_sapienza"
+          }
         ]
       },
       {
@@ -40913,7 +40953,13 @@
         ],
         "map_locations": [
           { "map": "marrakesh_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1067, "y": 50, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1067,
+            "y": 50,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_marrakesh"
+          }
         ]
       },
       {
@@ -40939,7 +40985,13 @@
         ],
         "map_locations": [
           { "map": "bangkok_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1356, "y": 50, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1356,
+            "y": 50,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_bangkok"
+          }
         ]
       },
       {
@@ -40965,7 +41017,13 @@
         ],
         "map_locations": [
           { "map": "colorado_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1645, "y": 50, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1645,
+            "y": 50,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_colorado"
+          }
         ]
       },
       {
@@ -40991,7 +41049,13 @@
         ],
         "map_locations": [
           { "map": "hokkaido_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1934, "y": 50, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1934,
+            "y": 50,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_hokkaido"
+          }
         ]
       },
       {
@@ -41017,7 +41081,13 @@
         ],
         "map_locations": [
           { "map": "hawkes_bay_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 200, "y": 265, "size": 30 }
+          {
+            "map": "overview",
+            "x": 200,
+            "y": 265,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_hawkes_bay"
+          }
         ]
       },
       {
@@ -41040,7 +41110,13 @@
         ],
         "map_locations": [
           { "map": "miami_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 489, "y": 265, "size": 30 }
+          {
+            "map": "overview",
+            "x": 489,
+            "y": 265,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_miami"
+          }
         ]
       },
       {
@@ -41066,7 +41142,13 @@
         ],
         "map_locations": [
           { "map": "santa_fortuna_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 778, "y": 265, "size": 30 }
+          {
+            "map": "overview",
+            "x": 778,
+            "y": 265,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_santa_fortuna"
+          }
         ]
       },
       {
@@ -41089,7 +41171,13 @@
         ],
         "map_locations": [
           { "map": "mumbai_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1067, "y": 265, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1067,
+            "y": 265,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_mumbai"
+          }
         ]
       },
       {
@@ -41115,7 +41203,13 @@
         ],
         "map_locations": [
           { "map": "whittleton_creek_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1356, "y": 265, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1356,
+            "y": 265,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_whittleton_creek"
+          }
         ]
       },
       {
@@ -41141,7 +41235,13 @@
         ],
         "map_locations": [
           { "map": "isle_of_sgail_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1645, "y": 265, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1645,
+            "y": 265,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_isle_of_sgail"
+          }
         ]
       },
       {
@@ -41167,7 +41267,13 @@
         ],
         "map_locations": [
           { "map": "new_york_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1934, "y": 265, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1934,
+            "y": 265,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_new_york"
+          }
         ]
       },
       {
@@ -41193,7 +41299,13 @@
         ],
         "map_locations": [
           { "map": "haven_island_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 2223, "y": 265, "size": 30 }
+          {
+            "map": "overview",
+            "x": 2223,
+            "y": 265,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_haven_island"
+          }
         ]
       },
       {
@@ -41216,7 +41328,13 @@
         ],
         "map_locations": [
           { "map": "dubai_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 200, "y": 480, "size": 30 }
+          {
+            "map": "overview",
+            "x": 200,
+            "y": 480,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_dubai"
+          }
         ]
       },
       {
@@ -41242,7 +41360,13 @@
         ],
         "map_locations": [
           { "map": "dartmoor_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 489, "y": 480, "size": 30 }
+          {
+            "map": "overview",
+            "x": 489,
+            "y": 480,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_dartmoor"
+          }
         ]
       },
       {
@@ -41265,7 +41389,13 @@
         ],
         "map_locations": [
           { "map": "berlin_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 778, "y": 480, "size": 30 }
+          {
+            "map": "overview",
+            "x": 778,
+            "y": 480,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_berlin"
+          }
         ]
       },
       {
@@ -41291,7 +41421,13 @@
         ],
         "map_locations": [
           { "map": "chongqing_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1067, "y": 480, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1067,
+            "y": 480,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_chongqing"
+          }
         ]
       },
       {
@@ -41317,7 +41453,13 @@
         ],
         "map_locations": [
           { "map": "mendoza_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1356, "y": 480, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1356,
+            "y": 480,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_mendoza"
+          }
         ]
       },
       {
@@ -41343,7 +41485,13 @@
         ],
         "map_locations": [
           { "map": "carpathian_mountains_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1645, "y": 480, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1645,
+            "y": 480,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_carpathian_mountains"
+          }
         ]
       },
       {
@@ -41369,7 +41517,13 @@
         ],
         "map_locations": [
           { "map": "ambrose_island_0", "x": 20, "y": 20, "size": 30 },
-          { "map": "overview", "x": 1934, "y": 480, "size": 30 }
+          {
+            "map": "overview",
+            "x": 1934,
+            "y": 480,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_ambrose_island"
+          }
         ]
       }
     ]

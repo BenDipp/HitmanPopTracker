@@ -91,6 +91,48 @@ function apply_slot_data(slot_data)
 	else
 		Tracker:FindObjectForCode("option_master").CurrentStage = 0
 	end
+
+	--default for level-settings is active, so set them deactive, since slot_data contains list of active levels
+	Tracker:FindObjectForCode("option_enable_ica_facility").Active = false
+	Tracker:FindObjectForCode("option_enable_bangkok").Active = false
+	Tracker:FindObjectForCode("option_enable_colorado").Active = false
+	Tracker:FindObjectForCode("option_enable_hokkaido").Active = false
+	Tracker:FindObjectForCode("option_enable_marrakesh").Active = false
+	Tracker:FindObjectForCode("option_enable_paris").Active = false
+	Tracker:FindObjectForCode("option_enable_sapienza").Active = false
+	Tracker:FindObjectForCode("option_enable_santa_fortuna").Active = false
+	Tracker:FindObjectForCode("option_enable_miami").Active = false
+	Tracker:FindObjectForCode("option_enable_mumbai").Active = false
+	Tracker:FindObjectForCode("option_enable_hawkes_bay").Active = false
+	Tracker:FindObjectForCode("option_enable_whittleton_creek").Active = false
+	Tracker:FindObjectForCode("option_enable_isle_of_sgail").Active = false
+	Tracker:FindObjectForCode("option_enable_new_york").Active = false
+	Tracker:FindObjectForCode("option_enable_haven_island").Active = false
+	Tracker:FindObjectForCode("option_enable_dartmoor").Active = false
+	Tracker:FindObjectForCode("option_enable_berlin").Active = false
+	Tracker:FindObjectForCode("option_enable_mendoza").Active = false
+	Tracker:FindObjectForCode("option_enable_ambrose_island").Active = false
+	Tracker:FindObjectForCode("option_enable_chongqing").Active = false
+	Tracker:FindObjectForCode("option_enable_carpathian_mountains").Active = false
+
+	for i, level in ipairs(slot_data["included_s1_locations"]) do
+		Tracker:FindObjectForCode("option_enable_"..level).Active = true
+	end
+	for i, level in ipairs(slot_data["included_s2_locations"]) do
+		Tracker:FindObjectForCode("option_enable_"..level).Active = true
+	end
+	for i, level in ipairs(slot_data["included_s2_dlc_locations"]) do
+		Tracker:FindObjectForCode("option_enable_"..level).Active = true
+	end
+	for i, level in ipairs(slot_data["included_s3_locations"]) do
+		Tracker:FindObjectForCode("option_enable_"..level).Active = true
+	end
+	if slot_data["goal_location_name"] ~= nil then
+		Tracker:FindObjectForCode("option_enable_"..slot_data["goal_location_name"]).Active = true	
+	end
+	Tracker:FindObjectForCode("option_enable_"..slot_data["starting_location_name"]).Active = true
+	
+
 end
 
 -- called right after an AP slot is connected
