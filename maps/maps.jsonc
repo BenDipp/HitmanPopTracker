@@ -726,5 +726,29 @@
     "location_size": 10,
     "location_border_thickness": 2,
     "img": "images/maps/berlin_3.png"
+  },
+  {
+    "name": "ica_facility_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/ica_facility_3.png"
+  },
+  {
+    "name": "colorado_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/colorado_3.png"
+  },
+  {
+    "name": "hawkes_bay_2",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/hawkes_bay_2.png"
+  },
+  {
+    "name": "haven_island_3",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/haven_island_3.png"
   }
 ]

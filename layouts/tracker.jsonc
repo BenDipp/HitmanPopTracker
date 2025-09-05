@@ -45,7 +45,8 @@
                             "maps": [
                               "ica_facility_0",
                               "ica_facility_1",
-                              "ica_facility_2"
+                              "ica_facility_2",
+                              "ica_facility_3"
                             ]
                           }
                         },
@@ -68,6 +69,13 @@
                           "content": {
                             "type": "map",
                             "maps": ["ica_facility_2"]
+                          }
+                        },
+                        {
+                          "title": "Level 3",
+                          "content": {
+                            "type": "map",
+                            "maps": ["ica_facility_3"]
                           }
                         }
                       ]
@@ -317,7 +325,12 @@
                           "title": "All",
                           "content": {
                             "type": "map",
-                            "maps": ["colorado_0", "colorado_1", "colorado_2"]
+                            "maps": [
+                              "colorado_0",
+                              "colorado_1",
+                              "colorado_2",
+                              "colorado_3"
+                            ]
                           }
                         },
                         {
@@ -339,6 +352,13 @@
                           "content": {
                             "type": "map",
                             "maps": ["colorado_2"]
+                          }
+                        },
+                        {
+                          "title": "Level 3",
+                          "content": {
+                            "type": "map",
+                            "maps": ["colorado_3"]
                           }
                         }
                       ]
@@ -409,7 +429,11 @@
                           "title": "All",
                           "content": {
                             "type": "map",
-                            "maps": ["hawkes_bay_0", "hawkes_bay_1"]
+                            "maps": [
+                              "hawkes_bay_0",
+                              "hawkes_bay_1",
+                              "hawkes_bay_2"
+                            ]
                           }
                         },
                         {
@@ -424,6 +448,13 @@
                           "content": {
                             "type": "map",
                             "maps": ["hawkes_bay_1"]
+                          }
+                        },
+                        {
+                          "title": "Level 2",
+                          "content": {
+                            "type": "map",
+                            "maps": ["hawkes_bay_2"]
                           }
                         }
                       ]
@@ -829,7 +860,8 @@
                               "haven_island_-1",
                               "haven_island_0",
                               "haven_island_1",
-                              "haven_island_2"
+                              "haven_island_2",
+                              "haven_island_3"
                             ]
                           }
                         },
@@ -873,6 +905,13 @@
                           "content": {
                             "type": "map",
                             "maps": ["haven_island_2"]
+                          }
+                        },
+                        {
+                          "title": "Level 3",
+                          "content": {
+                            "type": "map",
+                            "maps": ["haven_island_3"]
                           }
                         }
                       ]
@@ -1351,7 +1390,7 @@
     }
   },
   "settings_popup": {
-    "type":"layout",
-    "key":"settings"
+    "type": "layout",
+    "key": "settings"
   }
 }
