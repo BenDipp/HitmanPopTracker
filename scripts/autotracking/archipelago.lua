@@ -108,6 +108,7 @@ function apply_slot_data(slot_data)
 	Tracker:FindObjectForCode("option_enable_isle_of_sgail").Active = false
 	Tracker:FindObjectForCode("option_enable_new_york").Active = false
 	Tracker:FindObjectForCode("option_enable_haven_island").Active = false
+	Tracker:FindObjectForCode("option_enable_dubai").Active = false
 	Tracker:FindObjectForCode("option_enable_dartmoor").Active = false
 	Tracker:FindObjectForCode("option_enable_berlin").Active = false
 	Tracker:FindObjectForCode("option_enable_mendoza").Active = false
