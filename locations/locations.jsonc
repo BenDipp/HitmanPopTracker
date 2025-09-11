@@ -40859,7 +40859,13 @@
           }
         ],
         "map_locations": [
-          { "map": "ica_facility_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "ica_facility_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_ica_facility"
+          },
           {
             "map": "overview",
             "x": 200,
@@ -40888,7 +40894,13 @@
           }
         ],
         "map_locations": [
-          { "map": "paris_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "paris_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_paris"
+          },
           {
             "map": "overview",
             "x": 489,
@@ -40920,7 +40932,13 @@
           }
         ],
         "map_locations": [
-          { "map": "sapienza_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "sapienza_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_sapienza"
+          },
           {
             "map": "overview",
             "x": 778,
@@ -40952,7 +40970,13 @@
           }
         ],
         "map_locations": [
-          { "map": "marrakesh_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "marrakesh_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_marrakesh"
+          },
           {
             "map": "overview",
             "x": 1067,
@@ -40984,7 +41008,13 @@
           }
         ],
         "map_locations": [
-          { "map": "bangkok_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "bangkok_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_bangkok"
+          },
           {
             "map": "overview",
             "x": 1356,
@@ -41016,7 +41046,13 @@
           }
         ],
         "map_locations": [
-          { "map": "colorado_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "colorado_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_colorado"
+          },
           {
             "map": "overview",
             "x": 1645,
@@ -41048,7 +41084,13 @@
           }
         ],
         "map_locations": [
-          { "map": "hokkaido_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "hokkaido_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_hokkaido"
+          },
           {
             "map": "overview",
             "x": 1934,
@@ -41080,7 +41122,13 @@
           }
         ],
         "map_locations": [
-          { "map": "hawkes_bay_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "hawkes_bay_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_hawkes_bay"
+          },
           {
             "map": "overview",
             "x": 200,
@@ -41109,7 +41157,13 @@
           }
         ],
         "map_locations": [
-          { "map": "miami_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "miami_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_miami"
+          },
           {
             "map": "overview",
             "x": 489,
@@ -41141,7 +41195,13 @@
           }
         ],
         "map_locations": [
-          { "map": "santa_fortuna_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "santa_fortuna_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_santa_fortuna"
+          },
           {
             "map": "overview",
             "x": 778,
@@ -41170,7 +41230,13 @@
           }
         ],
         "map_locations": [
-          { "map": "mumbai_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "mumbai_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_mumbai"
+          },
           {
             "map": "overview",
             "x": 1067,
@@ -41202,7 +41268,13 @@
           }
         ],
         "map_locations": [
-          { "map": "whittleton_creek_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "whittleton_creek_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_whittleton_creek"
+          },
           {
             "map": "overview",
             "x": 1356,
@@ -41234,7 +41306,13 @@
           }
         ],
         "map_locations": [
-          { "map": "isle_of_sgail_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "isle_of_sgail_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_isle_of_sgail"
+          },
           {
             "map": "overview",
             "x": 1645,
@@ -41266,7 +41344,13 @@
           }
         ],
         "map_locations": [
-          { "map": "new_york_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "new_york_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_new_york"
+          },
           {
             "map": "overview",
             "x": 1934,
@@ -41298,7 +41382,13 @@
           }
         ],
         "map_locations": [
-          { "map": "haven_island_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "haven_island_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_haven_island"
+          },
           {
             "map": "overview",
             "x": 2223,
@@ -41327,7 +41417,13 @@
           }
         ],
         "map_locations": [
-          { "map": "dubai_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "dubai_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_dubai"
+          },
           {
             "map": "overview",
             "x": 200,
@@ -41359,7 +41455,13 @@
           }
         ],
         "map_locations": [
-          { "map": "dartmoor_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "dartmoor_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_dartmoor"
+          },
           {
             "map": "overview",
             "x": 489,
@@ -41388,7 +41490,13 @@
           }
         ],
         "map_locations": [
-          { "map": "berlin_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "berlin_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_berlin"
+          },
           {
             "map": "overview",
             "x": 778,
@@ -41420,7 +41528,13 @@
           }
         ],
         "map_locations": [
-          { "map": "chongqing_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "chongqing_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_chongqing"
+          },
           {
             "map": "overview",
             "x": 1067,
@@ -41452,7 +41566,13 @@
           }
         ],
         "map_locations": [
-          { "map": "mendoza_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "mendoza_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_mendoza"
+          },
           {
             "map": "overview",
             "x": 1356,
@@ -41484,7 +41604,13 @@
           }
         ],
         "map_locations": [
-          { "map": "carpathian_mountains_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "carpathian_mountains_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_carpathian_mountains"
+          },
           {
             "map": "overview",
             "x": 1645,
@@ -41516,7 +41642,13 @@
           }
         ],
         "map_locations": [
-          { "map": "ambrose_island_0", "x": 20, "y": 20, "size": 30 },
+          {
+            "map": "ambrose_island_0",
+            "x": 20,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_ambrose_island"
+          },
           {
             "map": "overview",
             "x": 1934,
