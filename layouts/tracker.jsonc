@@ -1285,12 +1285,25 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "carpathian_mountains_0",
-                              "carpathian_mountains_1",
-                              "carpathian_mountains_2",
-                              "carpathian_mountains_3"
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "content": [
+                              {
+                                "type": "map",
+                                "maps": ["carpathian_mountains_0"]
+                              },
+                              {
+                                "type": "map",
+                                "maps": ["carpathian_mountains_1"]
+                              },
+                              {
+                                "type": "map",
+                                "maps": ["carpathian_mountains_2"]
+                              },
+                              {
+                                "type": "map",
+                                "maps": ["carpathian_mountains_3"]
+                              }
                             ]
                           }
                         },
