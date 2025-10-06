@@ -89,8 +89,18 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": ["paris_0", "paris_1", "paris_2", "paris_3"]
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "content": [
+                              {
+                                "type": "map",
+                                "maps": ["paris_0", "paris_1"]
+                              },
+                              {
+                                "type": "map",
+                                "maps": ["paris_2", "paris_3"]
+                              }
+                            ]
                           }
                         },
                         {
@@ -132,16 +142,27 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "sapienza_0",
-                              "sapienza_1",
-                              "sapienza_2",
-                              "sapienza_3",
-                              "sapienza_4",
-                              "sapienza_5",
-                              "sapienza_6",
-                              "sapienza_7"
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "content": [
+                              {
+                                "type": "map",
+                                "maps": [
+                                  "sapienza_0",
+                                  "sapienza_1",
+                                  "sapienza_2",
+                                  "sapienza_3"
+                                ]
+                              },
+                              {
+                                "type": "map",
+                                "maps": [
+                                  "sapienza_4",
+                                  "sapienza_5",
+                                  "sapienza_6",
+                                  "sapienza_7"
+                                ]
+                              }
                             ]
                           }
                         },
@@ -260,14 +281,17 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "bangkok_0",
-                              "bangkok_1",
-                              "bangkok_2",
-                              "bangkok_3",
-                              "bangkok_4",
-                              "bangkok_5"
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "content": [
+                              {
+                                "type": "map",
+                                "maps": ["bangkok_0", "bangkok_1", "bangkok_2"]
+                              },
+                              {
+                                "type": "map",
+                                "maps": ["bangkok_3", "bangkok_4", "bangkok_5"]
+                              }
                             ]
                           }
                         },
@@ -573,17 +597,30 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "mumbai_-1",
-                              "mumbai_0",
-                              "mumbai_1",
-                              "mumbai_2",
-                              "mumbai_3",
-                              "mumbai_4",
-                              "mumbai_5",
-                              "mumbai_6",
-                              "mumbai_7"
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "margin": "left",
+                            "content": [
+                              {
+                                "type": "map",
+                                "margin": "left",
+                                "maps": [
+                                  "mumbai_-1",
+                                  "mumbai_0",
+                                  "mumbai_1",
+                                  "mumbai_2"
+                                ]
+                              },
+                              {
+                                "type": "map",
+                                "maps": [
+                                  "mumbai_3",
+                                  "mumbai_4",
+                                  "mumbai_5",
+                                  "mumbai_6",
+                                  "mumbai_7"
+                                ]
+                              }
                             ]
                           }
                         },
@@ -709,17 +746,30 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "isle_of_sgail_0",
-                              "isle_of_sgail_1",
-                              "isle_of_sgail_2",
-                              "isle_of_sgail_3",
-                              "isle_of_sgail_4",
-                              "isle_of_sgail_5",
-                              "isle_of_sgail_6",
-                              "isle_of_sgail_7",
-                              "isle_of_sgail_8"
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "margin": "left",
+                            "content": [
+                              {
+                                "type": "map",
+                                "margin": "left",
+                                "maps": [
+                                  "isle_of_sgail_0",
+                                  "isle_of_sgail_1",
+                                  "isle_of_sgail_2",
+                                  "isle_of_sgail_3"
+                                ]
+                              },
+                              {
+                                "type": "map",
+                                "maps": [
+                                  "isle_of_sgail_4",
+                                  "isle_of_sgail_5",
+                                  "isle_of_sgail_6",
+                                  "isle_of_sgail_7",
+                                  "isle_of_sgail_8"
+                                ]
+                              }
                             ]
                           }
                         },
@@ -853,15 +903,28 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "haven_island_-3",
-                              "haven_island_-2",
-                              "haven_island_-1",
-                              "haven_island_0",
-                              "haven_island_1",
-                              "haven_island_2",
-                              "haven_island_3"
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "margin": "left",
+                            "content": [
+                              {
+                                "type": "map",
+                                "margin": "left",
+                                "maps": [
+                                  "haven_island_-3",
+                                  "haven_island_-2",
+                                  "haven_island_-1"
+                                ]
+                              },
+                              {
+                                "type": "map",
+                                "maps": [
+                                  "haven_island_0",
+                                  "haven_island_1",
+                                  "haven_island_2",
+                                  "haven_island_3"
+                                ]
+                              }
                             ]
                           }
                         },
@@ -933,15 +996,24 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "dubai_-1",
-                              "dubai_0",
-                              "dubai_1",
-                              "dubai_2",
-                              "dubai_3",
-                              "dubai_4",
-                              "dubai_5"
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "margin": "left",
+                            "content": [
+                              {
+                                "type": "map",
+                                "margin": "left",
+                                "maps": [
+                                  "dubai_-1",
+                                  "dubai_0",
+                                  "dubai_1",
+                                  "dubai_2"
+                                ]
+                              },
+                              {
+                                "type": "map",
+                                "maps": ["dubai_3", "dubai_4", "dubai_5"]
+                              }
                             ]
                           }
                         },
@@ -1125,17 +1197,28 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "chongqing_-3",
-                              "chongqing_-2",
-                              "chongqing_-1",
-                              "chongqing_0",
-                              "chongqing_1",
-                              "chongqing_2",
-                              "chongqing_3",
-                              "chongqing_4",
-                              "chongqing_5"
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "content": [
+                              {
+                                "type": "map",
+                                "maps": [
+                                  "chongqing_-3",
+                                  "chongqing_-2",
+                                  "chongqing_-1",
+                                  "chongqing_0"
+                                ]
+                              },
+                              {
+                                "type": "map",
+                                "maps": [
+                                  "chongqing_1",
+                                  "chongqing_2",
+                                  "chongqing_3",
+                                  "chongqing_4",
+                                  "chongqing_5"
+                                ]
+                              }
                             ]
                           }
                         },
@@ -1213,15 +1296,24 @@
                         {
                           "title": "All",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "mendoza_0",
-                              "mendoza_1",
-                              "mendoza_2",
-                              "mendoza_3",
-                              "mendoza_4",
-                              "mendoza_5",
-                              "mendoza_6"
+                            "type": "dock",
+                            "orientation": "vertical",
+                            "margin": "left",
+                            "content": [
+                              {
+                                "type": "map",
+                                "margin": "left",
+                                "maps": ["mendoza_0", "mendoza_1", "mendoza_2"]
+                              },
+                              {
+                                "type": "map",
+                                "maps": [
+                                  "mendoza_3",
+                                  "mendoza_4",
+                                  "mendoza_5",
+                                  "mendoza_6"
+                                ]
+                              }
                             ]
                           }
                         },
