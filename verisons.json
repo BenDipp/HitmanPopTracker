@@ -1,6 +1,17 @@
 {
     "versions" : [
 		{
+			"package_version": "0.0.7",
+			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.7/HitmanPopTracker_0.0.7.zip",
+			"sha256": "2000b0d58ed8d01595c84d2b46cf794b9517216cb492dcac33d80c6f0a73e350",
+			"changelog": [
+				"Fixed Dubai staying active when connecting to a slot with dubai deactive",
+				"When Level is disabled, also hide the completion checks in the level tab",
+				"Changed layout of Carpathian Mountains All Maps to stack them vertically",
+				"Moved some maps to be displayed in two rows"
+			]
+        },
+		{
 			"package_version": "0.0.6",
 			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.6/HitmanPopTracker_0.0.6.zip",
 			"sha256": "b003aefd6712e0de75432b743c0f439044bfbfcc7ca9f04a7f58eaf8eefc511f",
