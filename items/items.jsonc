@@ -187,6 +187,26 @@
     ]
   },
   {
+    "name": "Itemsanity",
+    "type": "progressive_toggle",
+    "allow_disabled": true,
+    "loop": true,
+    "codes": "options_any_itemsanity",
+    "initial_active_state":true,
+    "stages": [
+      {
+        "img": "images/items/itemsanity.png",
+        "codes": "option_itemsanity"
+      },
+      {
+        "name": "Split Itemsanity",
+        "img": "images/items/split_itemsanity.png",
+        "codes": "option_split_itemsanity",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Enable ICA Facility",
     "type": "toggle",
     "img": "images/items/level_ica.png",

@@ -48,9 +48,10 @@ local maps = {"ICA Facility","Paris","Sapienza","Marrakesh","Bangkok","Colorado"
 
 local isUpdating = false
 function updateAllLocationsWithSameName(changedSection)
-    if isUpdating or changedSection.FullID:match("Completion Locations.*") then
+    if isUpdating or changedSection.FullID:match("Completion Locations.*") or not (Tracker:FindObjectForCode("option_split_itemsanity").CurrentStage == 0) then
         return
     end
+
     isUpdating = true
     local shortName = changedSection.FullID:match("([^/]+)$")
     --print(shortName)

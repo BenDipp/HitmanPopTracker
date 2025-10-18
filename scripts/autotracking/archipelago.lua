@@ -133,7 +133,14 @@ function apply_slot_data(slot_data)
 	end
 	Tracker:FindObjectForCode("option_enable_"..slot_data["starting_location_name"]).Active = true
 	
-
+	if slot_data["enable_itemsanity"] then
+		Tracker:FindObjectForCode("option_itemsanity").Active = true
+		if slot_data["split_itemsanity"] then
+			Tracker:FindObjectForCode("option_itemsanity").CurrentStage = 1
+		else
+			Tracker:FindObjectForCode("option_itemsanity").CurrentStage = 0
+		end
+	end
 end
 
 -- called right after an AP slot is connected
