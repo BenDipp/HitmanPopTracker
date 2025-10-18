@@ -11,21 +11,6 @@
         "content": [
           {
             "type": "group",
-            "header": "Enabled completion checks",
-            "dock": "left",
-            "margin": "0,0,3,0",
-            "content": {
-              "type": "itemgrid",
-              "item_margin": "6, 1",
-              "item_size": "64,64",
-              "h_alignment": "left",
-              "rows": [
-                ["option_complete", "option_sa", "option_so", "option_saso"]
-              ]
-            }
-          },
-          {
-            "type": "group",
             "header": "Difficulty",
             "dock": "left",
             "margin": "0,0,3,0",
@@ -125,6 +110,354 @@
                     "option_enable_mendoza",
                     "option_enable_carpathian_mountains",
                     "option_enable_ambrose_island"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Enabled Completion Checks per Level",
+        "dock": "left",
+        "margin": "0,0,3,0",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_margin": "6, 1",
+              "item_size": "64,64",
+              "h_alignment": "left",
+              "rows": [["option_complete"]]
+            },
+            {
+              "type": "group",
+              "header": "Hitman 1",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_completion_ica_facility",
+                    "option_completion_paris",
+                    "option_completion_sapienza",
+                    "option_completion_marrakesh",
+                    "option_completion_bangkok",
+                    "option_completion_colorado",
+                    "option_completion_hokkaido"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hitman 2",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_completion_hawkes_bay",
+                    "option_completion_miami",
+                    "option_completion_santa_fortuna",
+                    "option_completion_mumbai",
+                    "option_completion_whittleton_creek",
+                    "option_completion_isle_of_sgail",
+                    "option_completion_new_york",
+                    "option_completion_haven_island"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hitman 3",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_completion_dubai",
+                    "option_completion_dartmoor",
+                    "option_completion_berlin",
+                    "option_completion_chongqing",
+                    "option_completion_mendoza",
+                    "option_completion_carpathian_mountains",
+                    "option_completion_ambrose_island"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Enabled Silent Assasin Checks per Level",
+        "dock": "left",
+        "margin": "0,0,3,0",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_margin": "6, 1",
+              "item_size": "64,64",
+              "h_alignment": "left",
+              "rows": [["option_sa"]]
+            },
+            {
+              "type": "group",
+              "header": "Hitman 1",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_sa_ica_facility",
+                    "option_sa_paris",
+                    "option_sa_sapienza",
+                    "option_sa_marrakesh",
+                    "option_sa_bangkok",
+                    "option_sa_colorado",
+                    "option_sa_hokkaido"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hitman 2",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_sa_hawkes_bay",
+                    "option_sa_miami",
+                    "option_sa_santa_fortuna",
+                    "option_sa_mumbai",
+                    "option_sa_whittleton_creek",
+                    "option_sa_isle_of_sgail",
+                    "option_sa_new_york",
+                    "option_sa_haven_island"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hitman 3",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_sa_dubai",
+                    "option_sa_dartmoor",
+                    "option_sa_berlin",
+                    "option_sa_chongqing",
+                    "option_sa_mendoza",
+                    "option_sa_carpathian_mountains",
+                    "option_sa_ambrose_island"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Enabled Suit Only Checks per Level",
+        "dock": "left",
+        "margin": "0,0,3,0",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_margin": "6, 1",
+              "item_size": "64,64",
+              "h_alignment": "left",
+              "rows": [["option_so"]]
+            },
+            {
+              "type": "group",
+              "header": "Hitman 1",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_so_ica_facility",
+                    "option_so_paris",
+                    "option_so_sapienza",
+                    "option_so_marrakesh",
+                    "option_so_bangkok",
+                    "option_so_colorado",
+                    "option_so_hokkaido"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hitman 2",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_so_hawkes_bay",
+                    "option_so_miami",
+                    "option_so_santa_fortuna",
+                    "option_so_mumbai",
+                    "option_so_whittleton_creek",
+                    "option_so_isle_of_sgail",
+                    "option_so_new_york",
+                    "option_so_haven_island"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hitman 3",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_so_dubai",
+                    "option_so_dartmoor",
+                    "option_so_berlin",
+                    "option_so_chongqing",
+                    "option_so_mendoza",
+                    "option_so_carpathian_mountains",
+                    "option_so_ambrose_island"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Enabled Silent Assassin, Suit Only Checks per Level",
+        "dock": "left",
+        "margin": "0,0,3,0",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_margin": "6, 1",
+              "item_size": "64,64",
+              "h_alignment": "left",
+              "rows": [["option_saso"]]
+            },
+            {
+              "type": "group",
+              "header": "Hitman 1",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_saso_ica_facility",
+                    "option_saso_paris",
+                    "option_saso_sapienza",
+                    "option_saso_marrakesh",
+                    "option_saso_bangkok",
+                    "option_saso_colorado",
+                    "option_saso_hokkaido"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hitman 2",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_saso_hawkes_bay",
+                    "option_saso_miami",
+                    "option_saso_santa_fortuna",
+                    "option_saso_mumbai",
+                    "option_saso_whittleton_creek",
+                    "option_saso_isle_of_sgail",
+                    "option_saso_new_york",
+                    "option_saso_haven_island"
+                  ]
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "header": "Hitman 3",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "itemgrid",
+                "item_margin": "6, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "option_saso_dubai",
+                    "option_saso_dartmoor",
+                    "option_saso_berlin",
+                    "option_saso_chongqing",
+                    "option_saso_mendoza",
+                    "option_saso_carpathian_mountains",
+                    "option_saso_ambrose_island"
                   ]
                 ]
               }

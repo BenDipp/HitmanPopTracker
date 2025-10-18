@@ -140,26 +140,25 @@
   },
   {
     "name": "Level completion checks",
-    "type": "toggle",
+    "type": "static",
     "img": "images/items/complete.png",
-    "codes": "option_complete",
-    "initial_active_state": true
+    "codes": "option_complete"
   },
   {
     "name": "Silent Assassin checks",
-    "type": "toggle",
+    "type": "static",
     "img": "images/items/sa.png",
     "codes": "option_sa"
   },
   {
     "name": "Suit Only checks",
-    "type": "toggle",
+    "type": "static",
     "img": "images/items/so.png",
     "codes": "option_so"
   },
   {
     "name": "Silent Assassin, Suit Only checks",
-    "type": "toggle",
+    "type": "static",
     "img": "images/items/saso.png",
     "codes": "option_saso"
   },
@@ -192,7 +191,7 @@
     "allow_disabled": true,
     "loop": true,
     "codes": "options_any_itemsanity",
-    "initial_active_state":true,
+    "initial_active_state": true,
     "stages": [
       {
         "img": "images/items/itemsanity.png",
@@ -359,5 +358,563 @@
     "img": "images/items/flag_romania.png",
     "codes": "option_enable_carpathian_mountains",
     "initial_active_state": true
+  },
+
+  // Enabled Completion Checks:
+  {
+    "name": "Enable Completion Check for ICA Facility",
+    "type": "toggle",
+    "img": "images/items/level_ica.png",
+    "codes": "option_completion_ica_facility",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Bangkok",
+    "type": "toggle",
+    "img": "images/items/flag_thailand.png",
+    "codes": "option_completion_bangkok",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Colorado",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_completion_colorado",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Hokkaido",
+    "type": "toggle",
+    "img": "images/items/flag_japan.png",
+    "codes": "option_completion_hokkaido",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Marrakesh",
+    "type": "toggle",
+    "img": "images/items/flag_morocco.png",
+    "codes": "option_completion_marrakesh",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Paris",
+    "type": "toggle",
+    "img": "images/items/flag_france.png",
+    "codes": "option_completion_paris",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Sapienza",
+    "type": "toggle",
+    "img": "images/items/flag_italy.png",
+    "codes": "option_completion_sapienza",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Santa Fortuna",
+    "type": "toggle",
+    "img": "images/items/flag_colombia.png",
+    "codes": "option_completion_santa_fortuna",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Miami",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_completion_miami",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Mumbai",
+    "type": "toggle",
+    "img": "images/items/flag_india.png",
+    "codes": "option_completion_mumbai",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Hawkes Bay",
+    "type": "toggle",
+    "img": "images/items/flag_new_zealand.png",
+    "codes": "option_completion_hawkes_bay",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Whittleton Creek",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_completion_whittleton_creek",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Isle of Sgail",
+    "type": "toggle",
+    "img": "images/items/flag_ark_society.png",
+    "codes": "option_completion_isle_of_sgail",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for New York",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_completion_new_york",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Haven Island",
+    "type": "toggle",
+    "img": "images/items/flag_maldives.png",
+    "codes": "option_completion_haven_island",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Dartmoor",
+    "type": "toggle",
+    "img": "images/items/flag_united_kingdom.png",
+    "codes": "option_completion_dartmoor",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Berlin",
+    "type": "toggle",
+    "img": "images/items/flag_germany.png",
+    "codes": "option_completion_berlin",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Mendoza",
+    "type": "toggle",
+    "img": "images/items/flag_argentina.png",
+    "codes": "option_completion_mendoza",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Dubai",
+    "type": "toggle",
+    "img": "images/items/flag_united_arab_emirates.png",
+    "codes": "option_completion_dubai",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Ambrose Island",
+    "type": "toggle",
+    "img": "images/items/flag_pirate.png",
+    "codes": "option_completion_ambrose_island",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Chongqing",
+    "type": "toggle",
+    "img": "images/items/flag_china.png",
+    "codes": "option_completion_chongqing",
+    "initial_active_state": true
+  },
+  {
+    "name": "Enable Completion Check for Carpathian Mountains",
+    "type": "toggle",
+    "img": "images/items/flag_romania.png",
+    "codes": "option_completion_carpathian_mountains",
+    "initial_active_state": true
+  },
+
+  // Enabled SA Checks:
+  {
+    "name": "Enable Silent Assassin Check for ICA Facility",
+    "type": "toggle",
+    "img": "images/items/level_ica.png",
+    "codes": "option_sa_ica_facility"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Bangkok",
+    "type": "toggle",
+    "img": "images/items/flag_thailand.png",
+    "codes": "option_sa_bangkok"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Colorado",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_sa_colorado"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Hokkaido",
+    "type": "toggle",
+    "img": "images/items/flag_japan.png",
+    "codes": "option_sa_hokkaido"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Marrakesh",
+    "type": "toggle",
+    "img": "images/items/flag_morocco.png",
+    "codes": "option_sa_marrakesh"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Paris",
+    "type": "toggle",
+    "img": "images/items/flag_france.png",
+    "codes": "option_sa_paris"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Sapienza",
+    "type": "toggle",
+    "img": "images/items/flag_italy.png",
+    "codes": "option_sa_sapienza"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Santa Fortuna",
+    "type": "toggle",
+    "img": "images/items/flag_colombia.png",
+    "codes": "option_sa_santa_fortuna"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Miami",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_sa_miami"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Mumbai",
+    "type": "toggle",
+    "img": "images/items/flag_india.png",
+    "codes": "option_sa_mumbai"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Hawkes Bay",
+    "type": "toggle",
+    "img": "images/items/flag_new_zealand.png",
+    "codes": "option_sa_hawkes_bay"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Whittleton Creek",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_sa_whittleton_creek"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Isle of Sgail",
+    "type": "toggle",
+    "img": "images/items/flag_ark_society.png",
+    "codes": "option_sa_isle_of_sgail"
+  },
+  {
+    "name": "Enable Silent Assassin Check for New York",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_sa_new_york"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Haven Island",
+    "type": "toggle",
+    "img": "images/items/flag_maldives.png",
+    "codes": "option_sa_haven_island"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Dartmoor",
+    "type": "toggle",
+    "img": "images/items/flag_united_kingdom.png",
+    "codes": "option_sa_dartmoor"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Berlin",
+    "type": "toggle",
+    "img": "images/items/flag_germany.png",
+    "codes": "option_sa_berlin"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Mendoza",
+    "type": "toggle",
+    "img": "images/items/flag_argentina.png",
+    "codes": "option_sa_mendoza"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Dubai",
+    "type": "toggle",
+    "img": "images/items/flag_united_arab_emirates.png",
+    "codes": "option_sa_dubai"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Ambrose Island",
+    "type": "toggle",
+    "img": "images/items/flag_pirate.png",
+    "codes": "option_sa_ambrose_island"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Chongqing",
+    "type": "toggle",
+    "img": "images/items/flag_china.png",
+    "codes": "option_sa_chongqing"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Carpathian Mountains",
+    "type": "toggle",
+    "img": "images/items/flag_romania.png",
+    "codes": "option_sa_carpathian_mountains"
+  },
+
+  // Enabled SO Checks:
+  {
+    "name": "Enable Suit Only Check for ICA Facility",
+    "type": "toggle",
+    "img": "images/items/level_ica.png",
+    "codes": "option_so_ica_facility"
+  },
+  {
+    "name": "Enable Suit Only Check for Bangkok",
+    "type": "toggle",
+    "img": "images/items/flag_thailand.png",
+    "codes": "option_so_bangkok"
+  },
+  {
+    "name": "Enable Suit Only Check for Colorado",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_so_colorado"
+  },
+  {
+    "name": "Enable Suit Only Check for Hokkaido",
+    "type": "toggle",
+    "img": "images/items/flag_japan.png",
+    "codes": "option_so_hokkaido"
+  },
+  {
+    "name": "Enable Suit Only Check for Marrakesh",
+    "type": "toggle",
+    "img": "images/items/flag_morocco.png",
+    "codes": "option_so_marrakesh"
+  },
+  {
+    "name": "Enable Suit Only Check for Paris",
+    "type": "toggle",
+    "img": "images/items/flag_france.png",
+    "codes": "option_so_paris"
+  },
+  {
+    "name": "Enable Suit Only Check for Sapienza",
+    "type": "toggle",
+    "img": "images/items/flag_italy.png",
+    "codes": "option_so_sapienza"
+  },
+  {
+    "name": "Enable Suit Only Check for Santa Fortuna",
+    "type": "toggle",
+    "img": "images/items/flag_colombia.png",
+    "codes": "option_so_santa_fortuna"
+  },
+  {
+    "name": "Enable Suit Only Check for Miami",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_so_miami"
+  },
+  {
+    "name": "Enable Suit Only Check for Mumbai",
+    "type": "toggle",
+    "img": "images/items/flag_india.png",
+    "codes": "option_so_mumbai"
+  },
+  {
+    "name": "Enable Suit Only Check for Hawkes Bay",
+    "type": "toggle",
+    "img": "images/items/flag_new_zealand.png",
+    "codes": "option_so_hawkes_bay"
+  },
+  {
+    "name": "Enable Suit Only Check for Whittleton Creek",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_so_whittleton_creek"
+  },
+  {
+    "name": "Enable Suit Only Check for Isle of Sgail",
+    "type": "toggle",
+    "img": "images/items/flag_ark_society.png",
+    "codes": "option_so_isle_of_sgail"
+  },
+  {
+    "name": "Enable Suit Only Check for New York",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_so_new_york"
+  },
+  {
+    "name": "Enable Suit Only Check for Haven Island",
+    "type": "toggle",
+    "img": "images/items/flag_maldives.png",
+    "codes": "option_so_haven_island"
+  },
+  {
+    "name": "Enable Suit Only Check for Dartmoor",
+    "type": "toggle",
+    "img": "images/items/flag_united_kingdom.png",
+    "codes": "option_so_dartmoor"
+  },
+  {
+    "name": "Enable Suit Only Check for Berlin",
+    "type": "toggle",
+    "img": "images/items/flag_germany.png",
+    "codes": "option_so_berlin"
+  },
+  {
+    "name": "Enable Suit Only Check for Mendoza",
+    "type": "toggle",
+    "img": "images/items/flag_argentina.png",
+    "codes": "option_so_mendoza"
+  },
+  {
+    "name": "Enable Suit Only Check for Dubai",
+    "type": "toggle",
+    "img": "images/items/flag_united_arab_emirates.png",
+    "codes": "option_so_dubai"
+  },
+  {
+    "name": "Enable Suit Only Check for Ambrose Island",
+    "type": "toggle",
+    "img": "images/items/flag_pirate.png",
+    "codes": "option_so_ambrose_island"
+  },
+  {
+    "name": "Enable Suit Only Check for Chongqing",
+    "type": "toggle",
+    "img": "images/items/flag_china.png",
+    "codes": "option_so_chongqing"
+  },
+  {
+    "name": "Enable Suit Only Check for Carpathian Mountains",
+    "type": "toggle",
+    "img": "images/items/flag_romania.png",
+    "codes": "option_so_carpathian_mountains"
+  },
+
+  // Enabled Checks:
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for ICA Facility",
+    "type": "toggle",
+    "img": "images/items/level_ica.png",
+    "codes": "option_saso_ica_facility"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Bangkok",
+    "type": "toggle",
+    "img": "images/items/flag_thailand.png",
+    "codes": "option_saso_bangkok"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Colorado",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_saso_colorado"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Hokkaido",
+    "type": "toggle",
+    "img": "images/items/flag_japan.png",
+    "codes": "option_saso_hokkaido"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Marrakesh",
+    "type": "toggle",
+    "img": "images/items/flag_morocco.png",
+    "codes": "option_saso_marrakesh"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Paris",
+    "type": "toggle",
+    "img": "images/items/flag_france.png",
+    "codes": "option_saso_paris"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Sapienza",
+    "type": "toggle",
+    "img": "images/items/flag_italy.png",
+    "codes": "option_saso_sapienza"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Santa Fortuna",
+    "type": "toggle",
+    "img": "images/items/flag_colombia.png",
+    "codes": "option_saso_santa_fortuna"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Miami",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_saso_miami"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Mumbai",
+    "type": "toggle",
+    "img": "images/items/flag_india.png",
+    "codes": "option_saso_mumbai"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Hawkes Bay",
+    "type": "toggle",
+    "img": "images/items/flag_new_zealand.png",
+    "codes": "option_saso_hawkes_bay"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Whittleton Creek",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_saso_whittleton_creek"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Isle of Sgail",
+    "type": "toggle",
+    "img": "images/items/flag_ark_society.png",
+    "codes": "option_saso_isle_of_sgail"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for New York",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_saso_new_york"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Haven Island",
+    "type": "toggle",
+    "img": "images/items/flag_maldives.png",
+    "codes": "option_saso_haven_island"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Dartmoor",
+    "type": "toggle",
+    "img": "images/items/flag_united_kingdom.png",
+    "codes": "option_saso_dartmoor"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Berlin",
+    "type": "toggle",
+    "img": "images/items/flag_germany.png",
+    "codes": "option_saso_berlin"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Mendoza",
+    "type": "toggle",
+    "img": "images/items/flag_argentina.png",
+    "codes": "option_saso_mendoza"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Dubai",
+    "type": "toggle",
+    "img": "images/items/flag_united_arab_emirates.png",
+    "codes": "option_saso_dubai"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Ambrose Island",
+    "type": "toggle",
+    "img": "images/items/flag_pirate.png",
+    "codes": "option_saso_ambrose_island"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Chongqing",
+    "type": "toggle",
+    "img": "images/items/flag_china.png",
+    "codes": "option_saso_chongqing"
+  },
+  {
+    "name": "Enable Silent Assassin, Suit Only Check for Carpathian Mountains",
+    "type": "toggle",
+    "img": "images/items/flag_romania.png",
+    "codes": "option_saso_carpathian_mountains"
   }
 ]

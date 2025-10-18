@@ -75,14 +75,12 @@ function incrementItem(item_code, item_type, multiplier)
 		print(string.format("incrementItem: could not find object for code %s", item_code))
 	end
 end
+-- "all", 
+local maps = {"ica_facility", "paris", "sapienza", "marrakesh", "bangkok", "colorado", "hokkaido", "hawkes_bay", "miami", "santa_fortuna", "mumbai", "whittleton_creek", "isle_of_sgail", "new_york", "haven_island", "dubai", "dartmoor", "berlin", "chongqing", "mendoza", "carpathian_mountains", "ambrose_island"}
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
-	Tracker:FindObjectForCode("option_complete").Active = slot_data["check_for_completion"]
-	Tracker:FindObjectForCode("option_sa").Active = slot_data["check_for_sa"]
-	Tracker:FindObjectForCode("option_so").Active = slot_data["check_for_so"]
-	Tracker:FindObjectForCode("option_saso").Active = slot_data["check_for_saso"]
 
 	if slot_data["difficulty"] == "easy" then
 		Tracker:FindObjectForCode("option_master").CurrentStage = 1
@@ -93,28 +91,13 @@ function apply_slot_data(slot_data)
 	end
 
 	--default for level-settings is active, so set them deactive, since slot_data contains list of active levels
-	Tracker:FindObjectForCode("option_enable_ica_facility").Active = false
-	Tracker:FindObjectForCode("option_enable_bangkok").Active = false
-	Tracker:FindObjectForCode("option_enable_colorado").Active = false
-	Tracker:FindObjectForCode("option_enable_hokkaido").Active = false
-	Tracker:FindObjectForCode("option_enable_marrakesh").Active = false
-	Tracker:FindObjectForCode("option_enable_paris").Active = false
-	Tracker:FindObjectForCode("option_enable_sapienza").Active = false
-	Tracker:FindObjectForCode("option_enable_santa_fortuna").Active = false
-	Tracker:FindObjectForCode("option_enable_miami").Active = false
-	Tracker:FindObjectForCode("option_enable_mumbai").Active = false
-	Tracker:FindObjectForCode("option_enable_hawkes_bay").Active = false
-	Tracker:FindObjectForCode("option_enable_whittleton_creek").Active = false
-	Tracker:FindObjectForCode("option_enable_isle_of_sgail").Active = false
-	Tracker:FindObjectForCode("option_enable_new_york").Active = false
-	Tracker:FindObjectForCode("option_enable_haven_island").Active = false
-	Tracker:FindObjectForCode("option_enable_dubai").Active = false
-	Tracker:FindObjectForCode("option_enable_dartmoor").Active = false
-	Tracker:FindObjectForCode("option_enable_berlin").Active = false
-	Tracker:FindObjectForCode("option_enable_mendoza").Active = false
-	Tracker:FindObjectForCode("option_enable_ambrose_island").Active = false
-	Tracker:FindObjectForCode("option_enable_chongqing").Active = false
-	Tracker:FindObjectForCode("option_enable_carpathian_mountains").Active = false
+	for i, level in ipairs(maps) do
+		Tracker:FindObjectForCode("option_enable_"..level).Active = false
+		Tracker:FindObjectForCode("option_completion_"..level).Active = false
+		Tracker:FindObjectForCode("option_sa_"..level).Active = false
+		Tracker:FindObjectForCode("option_so_"..level).Active = false
+		Tracker:FindObjectForCode("option_saso_"..level).Active = false
+	end
 
 	for i, level in ipairs(slot_data["included_s1_locations"]) do
 		Tracker:FindObjectForCode("option_enable_"..level).Active = true
@@ -141,6 +124,46 @@ function apply_slot_data(slot_data)
 			Tracker:FindObjectForCode("option_itemsanity").CurrentStage = 0
 		end
 	end
+
+	for i, level in ipairs(slot_data["levels_with_check_for_completion"]) do
+		if level == "all" then
+			for i, level in ipairs(maps) do
+				Tracker:FindObjectForCode("option_completion_"..level).Active = true
+			end
+			break;
+		end
+		Tracker:FindObjectForCode("option_completion_"..level).Active = true
+	end 
+
+	for i, level in ipairs(slot_data["levels_with_check_for_sa"]) do
+		if level == "all" then
+			for i, level in ipairs(maps) do
+				Tracker:FindObjectForCode("option_sa_"..level).Active = true
+			end
+			break;
+		end
+		Tracker:FindObjectForCode("option_sa_"..level).Active = true
+	end 
+
+	for i, level in ipairs(slot_data["levels_with_check_for_so"]) do
+		if level == "all" then
+			for i, level in ipairs(maps) do
+				Tracker:FindObjectForCode("option_so_"..level).Active = true
+			end
+			break;
+		end
+		Tracker:FindObjectForCode("option_so_"..level).Active = true
+	end 
+
+	for i, level in ipairs(slot_data["levels_with_check_for_saso"]) do
+		if level == "all" then
+			for i, level in ipairs(maps) do
+				Tracker:FindObjectForCode("option_saso_"..level).Active = true
+			end
+			break;
+		end
+		Tracker:FindObjectForCode("option_saso_"..level).Active = true
+	end 
 end
 
 -- called right after an AP slot is connected
