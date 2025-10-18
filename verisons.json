@@ -1,6 +1,15 @@
 {
     "versions" : [
 		{
+			"package_version": "0.0.8",
+			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.8/HitmanPopTracker_0.0.8.zip",
+			"sha256": "ff82e7aea5585f3c135ac1b99c4dc8f68449b912a737b27a73e17b17cd87d108",
+			"changelog": [
+				"Added support for Split Itemsanity",
+				"Added Options to set completion checks for each level individually"
+			]
+        },
+		{
 			"package_version": "0.0.7",
 			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.7/HitmanPopTracker_0.0.7.zip",
 			"sha256": "2000b0d58ed8d01595c84d2b46cf794b9517216cb492dcac33d80c6f0a73e350",
