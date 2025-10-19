@@ -115,14 +115,16 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("option_enable_"..slot_data["goal_location_name"]).Active = true	
 	end
 	Tracker:FindObjectForCode("option_enable_"..slot_data["starting_location_name"]).Active = true
-	
-	if slot_data["enable_itemsanity"] then
+
+	if slot_data["enable_itemsanity"] == 1 then
 		Tracker:FindObjectForCode("option_itemsanity").Active = true
-		if slot_data["split_itemsanity"] then
+		if slot_data["split_itemsanity"] == 1 then
 			Tracker:FindObjectForCode("option_itemsanity").CurrentStage = 1
 		else
 			Tracker:FindObjectForCode("option_itemsanity").CurrentStage = 0
 		end
+	else
+		Tracker:FindObjectForCode("option_itemsanity").Active = false
 	end
 
 	for i, level in ipairs(slot_data["levels_with_check_for_completion"]) do
