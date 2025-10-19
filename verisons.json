@@ -1,6 +1,14 @@
 {
     "versions" : [
 		{
+			"package_version": "0.0.9",
+			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.9/HitmanPopTracker_0.0.9.zip",
+			"sha256": "488c79fb6e191dd76bcc95642f69662f6cde7086ca75aa7aba838470bcd03a2b",
+			"changelog": [
+				"Fixed Autotracking not getting the right Itemsanity settings"
+			]
+        },
+		{
 			"package_version": "0.0.8",
 			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.0.8/HitmanPopTracker_0.0.8.zip",
 			"sha256": "ff82e7aea5585f3c135ac1b99c4dc8f68449b912a737b27a73e17b17cd87d108",
