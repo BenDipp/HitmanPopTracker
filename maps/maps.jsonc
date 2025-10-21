@@ -708,7 +708,13 @@
     "location_border_thickness": 2,
     "img": "images/maps/whittleton_creek_2.png"
   },
-  // Manually added
+  //MAN
+  {
+    "name": "overview",
+    "location_size": 10,
+    "location_border_thickness": 2,
+    "img": "images/maps/overview.png"
+  },
   {
     "name": "hitmaps",
     "location_size": 10,
