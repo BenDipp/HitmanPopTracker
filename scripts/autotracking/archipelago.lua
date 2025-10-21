@@ -81,6 +81,7 @@ local maps = {"ica_facility", "paris", "sapienza", "marrakesh", "bangkok", "colo
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
+	Tracker.BulkUpdate = true
 
 	if slot_data["difficulty"] == "easy" then
 		Tracker:FindObjectForCode("option_master").CurrentStage = 1
@@ -166,6 +167,7 @@ function apply_slot_data(slot_data)
 		end
 		Tracker:FindObjectForCode("option_saso_"..level).Active = true
 	end 
+	Tracker.BulkUpdate = false
 end
 
 -- called right after an AP slot is connected
