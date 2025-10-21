@@ -4,9 +4,9 @@ ENABLE_DEBUG_LOG = true
 -- get current variant
 local variant = Tracker.ActiveVariantUID
 -- check variant info
-IS_ITEMS_ONLY = variant:find("itemsonly")
+IS_OVERVIEW_ONLY = variant:find("overview")
 
-print("-- Example Tracker --")
+print("-- HITMAN Tracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")
@@ -15,24 +15,20 @@ end
 -- Utility Script for helper functions etc.
 ScriptHost:LoadScript("scripts/utils.lua")
 
--- Logic
-ScriptHost:LoadScript("scripts/logic/logic.lua")
-
--- Custom Items
-ScriptHost:LoadScript("scripts/custom_items/class.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
-
 -- Items
 Tracker:AddItems("items/items.jsonc")
 Tracker:AddItems("items/hosted_items.jsonc")
 
-if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
+if not IS_OVERVIEW_ONLY then -- <--- use variant info to optimize loading
     -- Maps
     Tracker:AddMaps("maps/maps.jsonc")
-    -- Locations
-    Tracker:AddLocations("locations/locations.jsonc")
 end
+
+-- Maps
+Tracker:AddMaps("maps/overview_maps.jsonc")
+
+-- Locations
+Tracker:AddLocations("locations/locations.jsonc")
 
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")
