@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Enable Silent Assassin Check for ICA Facility",
+    "type": "toggle",
+    "img": "images/items/level_ica.png",
+    "codes": "option_sa_ica_facility"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Bangkok",
+    "type": "toggle",
+    "img": "images/items/flag_thailand.png",
+    "codes": "option_sa_bangkok"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Colorado",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_sa_colorado"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Hokkaido",
+    "type": "toggle",
+    "img": "images/items/flag_japan.png",
+    "codes": "option_sa_hokkaido"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Marrakesh",
+    "type": "toggle",
+    "img": "images/items/flag_morocco.png",
+    "codes": "option_sa_marrakesh"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Paris",
+    "type": "toggle",
+    "img": "images/items/flag_france.png",
+    "codes": "option_sa_paris"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Sapienza",
+    "type": "toggle",
+    "img": "images/items/flag_italy.png",
+    "codes": "option_sa_sapienza"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Santa Fortuna",
+    "type": "toggle",
+    "img": "images/items/flag_colombia.png",
+    "codes": "option_sa_santa_fortuna"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Miami",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_sa_miami"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Mumbai",
+    "type": "toggle",
+    "img": "images/items/flag_india.png",
+    "codes": "option_sa_mumbai"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Hawkes Bay",
+    "type": "toggle",
+    "img": "images/items/flag_new_zealand.png",
+    "codes": "option_sa_hawkes_bay"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Whittleton Creek",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_sa_whittleton_creek"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Isle of Sgail",
+    "type": "toggle",
+    "img": "images/items/flag_ark_society.png",
+    "codes": "option_sa_isle_of_sgail"
+  },
+  {
+    "name": "Enable Silent Assassin Check for New York",
+    "type": "toggle",
+    "img": "images/items/flag_usa.png",
+    "codes": "option_sa_new_york"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Haven Island",
+    "type": "toggle",
+    "img": "images/items/flag_maldives.png",
+    "codes": "option_sa_haven_island"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Dartmoor",
+    "type": "toggle",
+    "img": "images/items/flag_united_kingdom.png",
+    "codes": "option_sa_dartmoor"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Berlin",
+    "type": "toggle",
+    "img": "images/items/flag_germany.png",
+    "codes": "option_sa_berlin"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Mendoza",
+    "type": "toggle",
+    "img": "images/items/flag_argentina.png",
+    "codes": "option_sa_mendoza"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Dubai",
+    "type": "toggle",
+    "img": "images/items/flag_united_arab_emirates.png",
+    "codes": "option_sa_dubai"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Ambrose Island",
+    "type": "toggle",
+    "img": "images/items/flag_pirate.png",
+    "codes": "option_sa_ambrose_island"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Chongqing",
+    "type": "toggle",
+    "img": "images/items/flag_china.png",
+    "codes": "option_sa_chongqing"
+  },
+  {
+    "name": "Enable Silent Assassin Check for Carpathian Mountains",
+    "type": "toggle",
+    "img": "images/items/flag_romania.png",
+    "codes": "option_sa_carpathian_mountains"
+  }
+]

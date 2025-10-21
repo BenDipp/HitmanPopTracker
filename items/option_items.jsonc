@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Master",
+      "type": "progressive",
+      "allow_disabled": false,
+      "loop": true,
+      "initial_stage_idx": 2,
+      "stages": [
+        {
+          "img": "images/items/master.png",
+          "codes": "option_master"
+        },
+        {
+          "name": "Casual",
+          "img": "images/items/casual.png",
+          "codes": "option_non_master"
+        },
+        {
+          "name": "Professional",
+          "img": "images/items/pro.png",
+          "codes": "option_non_master"
+        }
+      ]
+    },
+    {
+      "name": "Itemsanity",
+      "type": "progressive_toggle",
+      "allow_disabled": true,
+      "loop": true,
+      "codes": "options_any_itemsanity",
+      "initial_active_state": true,
+      "stages": [
+        {
+          "img": "images/items/itemsanity.png",
+          "codes": "option_itemsanity"
+        },
+        {
+          "name": "Split Itemsanity",
+          "img": "images/items/split_itemsanity.png",
+          "codes": "option_split_itemsanity",
+          "inherit_codes": false
+        }
+      ]
+    },
+  {
+    "name": "https://www.hitmaps.com",
+    "type": "static",
+    "img": "images/hitmaps-h.png",
+    "codes": "hitmaps"
+  },
+  {
+    "name": "Level completion checks",
+    "type": "static",
+    "img": "images/items/complete.png",
+    "codes": "option_complete"
+  },
+  {
+    "name": "Silent Assassin checks",
+    "type": "static",
+    "img": "images/items/sa.png",
+    "codes": "option_sa"
+  },
+  {
+    "name": "Suit Only checks",
+    "type": "static",
+    "img": "images/items/so.png",
+    "codes": "option_so"
+  },
+  {
+    "name": "Silent Assassin, Suit Only checks",
+    "type": "static",
+    "img": "images/items/saso.png",
+    "codes": "option_saso"
+  }
+]
