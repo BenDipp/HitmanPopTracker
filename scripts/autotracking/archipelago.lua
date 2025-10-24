@@ -167,6 +167,65 @@ function apply_slot_data(slot_data)
 		end
 		Tracker:FindObjectForCode("option_saso_"..level).Active = true
 	end 
+
+	if slot_data["targets"] ~= "vanilla" then
+		Tracker:FindObjectForCode("option_target_5000").Active = false
+		Tracker:FindObjectForCode("option_target_5046").Active = false
+		Tracker:FindObjectForCode("option_target_5047").Active = false
+		Tracker:FindObjectForCode("option_target_5346").Active = false
+		Tracker:FindObjectForCode("option_target_5347").Active = false
+		Tracker:FindObjectForCode("option_target_5643").Active = false
+		Tracker:FindObjectForCode("option_target_5644").Active = false
+		Tracker:FindObjectForCode("option_target_5933").Active = false
+		Tracker:FindObjectForCode("option_target_5934").Active = false
+		Tracker:FindObjectForCode("option_target_6227").Active = false
+		Tracker:FindObjectForCode("option_target_6228").Active = false
+		Tracker:FindObjectForCode("option_target_6229").Active = false
+		Tracker:FindObjectForCode("option_target_6230").Active = false
+		Tracker:FindObjectForCode("option_target_6363").Active = false
+		Tracker:FindObjectForCode("option_target_9501").Active = false
+		Tracker:FindObjectForCode("option_target_6532").Active = false
+		Tracker:FindObjectForCode("option_target_6563").Active = false
+		Tracker:FindObjectForCode("option_target_6564").Active = false
+		Tracker:FindObjectForCode("option_target_6863").Active = false
+		Tracker:FindObjectForCode("option_target_6864").Active = false
+		Tracker:FindObjectForCode("option_target_6865").Active = false
+		Tracker:FindObjectForCode("option_target_7162").Active = false
+		Tracker:FindObjectForCode("option_target_7163").Active = false
+		Tracker:FindObjectForCode("option_target_7164").Active = false
+		Tracker:FindObjectForCode("option_target_7457").Active = false
+		Tracker:FindObjectForCode("option_target_7458").Active = false
+		Tracker:FindObjectForCode("option_target_7842").Active = false
+		Tracker:FindObjectForCode("option_target_7774").Active = false
+		Tracker:FindObjectForCode("option_target_7928").Active = false
+		Tracker:FindObjectForCode("option_target_8066").Active = false
+		Tracker:FindObjectForCode("option_target_8067").Active = false
+		Tracker:FindObjectForCode("option_target_8068").Active = false
+		Tracker:FindObjectForCode("option_target_8280").Active = false
+		Tracker:FindObjectForCode("option_target_8281").Active = false
+		Tracker:FindObjectForCode("option_target_8491").Active = false
+		Tracker:FindObjectForCode("option_target_8600").Active = false
+		Tracker:FindObjectForCode("option_target_8601").Active = false
+		Tracker:FindObjectForCode("option_target_8602").Active = false
+		Tracker:FindObjectForCode("option_target_8603").Active = false
+		Tracker:FindObjectForCode("option_target_8604").Active = false
+		Tracker:FindObjectForCode("option_target_8605").Active = false
+		Tracker:FindObjectForCode("option_target_8606").Active = false
+		Tracker:FindObjectForCode("option_target_8607").Active = false
+		Tracker:FindObjectForCode("option_target_8608").Active = false
+		Tracker:FindObjectForCode("option_target_8609").Active = false
+		Tracker:FindObjectForCode("option_target_8812").Active = false
+		Tracker:FindObjectForCode("option_target_8813").Active = false
+		Tracker:FindObjectForCode("option_target_8991").Active = false
+		Tracker:FindObjectForCode("option_target_8992").Active = false
+		Tracker:FindObjectForCode("option_target_9500").Active = false
+		Tracker:FindObjectForCode("option_target_9294").Active = false
+		Tracker:FindObjectForCode("option_target_9295").Active = false
+
+		for target in string.gmatch(slot_data["targets"], "[^_-]+")do	
+			Tracker:FindObjectForCode("option_target_"..target).Active = true
+		end
+	end
 	Tracker.BulkUpdate = false
 end
 

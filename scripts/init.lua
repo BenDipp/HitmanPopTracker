@@ -17,6 +17,7 @@ ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Items
 Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/target_items.jsonc")
 Tracker:AddItems("items/hosted_items.jsonc")
 
 if not IS_OVERVIEW_ONLY then -- <--- use variant info to optimize loading
