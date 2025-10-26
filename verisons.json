@@ -1,6 +1,15 @@
 {
     "versions" : [
 		{
+			"package_version": "0.2.0",
+			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.2.0/HitmanPopTracker_0.2.0.zip",
+			"sha256": "4aaf12e39c0b5ec44e14ec79cc57337c9f0c5f82fcfc214a499d8fc586639c97",
+			"changelog": [
+				"Added support for Elimination Checks",
+				"Updated Itemsanity Icons to be more high-res"
+			]
+        },
+		{
 			"package_version": "0.1.1",
 			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.1.1/HitmanPopTracker_0.1.1.zip",
 			"sha256": "aff021bc678410b38eee2621ae7401415ec867d95620320c06a960c20b84c5e3",
