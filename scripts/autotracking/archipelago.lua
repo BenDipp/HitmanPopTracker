@@ -168,6 +168,7 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("option_saso_"..level).Active = true
 	end 
 
+	Tracker:FindObjectForCode("option_target_checks").Active = slot_data["enable_target_checks"]
 	if slot_data["targets"] ~= "vanilla" then
 		Tracker:FindObjectForCode("option_target_5000").Active = false
 		Tracker:FindObjectForCode("option_target_5046").Active = false

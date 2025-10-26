@@ -34,6 +34,19 @@
               "h_alignment": "left",
               "rows": [["option_itemsanity"]]
             }
+          },
+          {
+            "type": "group",
+            "header": "Elimination Checks",
+            "dock": "left",
+            "margin": "0,0,3,0",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "6, 1",
+              "item_size": "64,64",
+              "h_alignment": "left",
+              "rows": [["option_target_checks"]]
+            }
           }
         ]
       },

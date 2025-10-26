@@ -137,6 +137,13 @@
     "type": "static",
     "img": "images/hitmaps-h.png",
     "codes": "hitmaps"
+  },  
+  {
+    "name": "Elimination Checks",
+    "type": "toggle",
+    "img": "images/items/target_checks.png",
+    "codes": "option_target_checks",
+    "initial_active_state": true
   },
   {
     "name": "Level completion checks",
