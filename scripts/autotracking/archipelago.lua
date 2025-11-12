@@ -128,6 +128,12 @@ function apply_slot_data(slot_data)
 		Tracker:FindObjectForCode("option_itemsanity").Active = false
 	end
 
+	if slot_data["enable_disguisesanity"] == 1 then
+		Tracker:FindObjectForCode("option_disguisesanity").Active = true
+	else
+		Tracker:FindObjectForCode("option_disguisesanity").Active = false
+	end
+
 	for i, level in ipairs(slot_data["levels_with_check_for_completion"]) do
 		if level == "all" then
 			for i, level in ipairs(maps) do

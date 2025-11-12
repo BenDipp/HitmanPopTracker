@@ -71747,5 +71747,1453 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Disguise Locations",
+    "children": [
+      {
+        "name": "ICA Facility Disguise Checks",
+        "access_rules": ["Level - ICA Facility"],
+        "sections": [
+          {
+            "name": "Airplane Mechanic",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Airfield Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "KGB Officer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Soviet Soldier",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ica_facility_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_ica_facility"
+          },
+          {
+            "map": "overview",
+            "x": 50,
+            "y": 150,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_ica_facility"
+          }
+        ]
+      },
+      {
+        "name": "Paris Disguise Checks",
+        "access_rules": ["Level - Paris"],
+        "sections": [
+          {
+            "name": "CICADA Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Security Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Palace Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Vampire Magician",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Auction Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Tech Crew",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Stylist", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Helmut Kruger",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Sheikh Salman al-Ghazali",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Chef", "visibility_rules": ["option_disguisesanity"] }
+        ],
+        "map_locations": [
+          {
+            "map": "paris_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_paris"
+          },
+          {
+            "map": "overview",
+            "x": 339,
+            "y": 150,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_paris"
+          }
+        ]
+      },
+      {
+        "name": "Sapienza Disguise Checks",
+        "access_rules": ["Level - Sapienza"],
+        "sections": [
+          {
+            "name": "Mansion Chef",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Priest", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Red Plumber",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Bohemian", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Biolab Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Dr. Oscar Lafayette",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Church Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Waiter", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Street Performer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Housekeeper",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Delivery Man",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Gardener", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Kitchen Assistant",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Hazmat Suit",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Lab Technician",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Mansion Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Store Clerk",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Mansion Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Cyclist", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Roberto Vargas",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Private Detective",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Green Plumber",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Butler", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Plague Doctor",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sapienza_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_sapienza"
+          },
+          {
+            "map": "overview",
+            "x": 628,
+            "y": 150,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_sapienza"
+          }
+        ]
+      },
+      {
+        "name": "Marrakesh Disguise Checks",
+        "access_rules": ["Level - Marrakesh"],
+        "sections": [
+          {
+            "name": "Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Elite Soldier",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Consulate Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Military Officer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Military Soldier",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Cameraman",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Consulate Intern",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Masseur", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Fortune Teller",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Headmaster",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Prisoner", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Waiter", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Consulate Janitor",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Handyman", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Food Vendor",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Local Printing Crew",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Shopkeeper",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "marrakesh_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_marrakesh"
+          },
+          {
+            "map": "overview",
+            "x": 917,
+            "y": 150,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_marrakesh"
+          }
+        ]
+      },
+      {
+        "name": "Bangkok Disguise Checks",
+        "access_rules": ["Level - Bangkok"],
+        "sections": [
+          {
+            "name": "Hotel Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Abel de Silva",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Exterminator",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Groundskeeper",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Hotel Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Kitchen Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Recording Crew",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Waiter", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Jordan Cross' Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Stalker", "visibility_rules": ["option_disguisesanity"] }
+        ],
+        "map_locations": [
+          {
+            "map": "bangkok_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_bangkok"
+          },
+          {
+            "map": "overview",
+            "x": 1206,
+            "y": 150,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_bangkok"
+          }
+        ]
+      },
+      {
+        "name": "Colorado Disguise Checks",
+        "access_rules": ["Level - Colorado"],
+        "sections": [
+          {
+            "name": "Militia Soldier",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Militia Cook",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Explosives Specialist",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Militia Elite",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Militia Spec Ops",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Militia Technician",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Scarecrow",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Point Man",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Hacker", "visibility_rules": ["option_disguisesanity"] }
+        ],
+        "map_locations": [
+          {
+            "map": "colorado_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_colorado"
+          },
+          {
+            "map": "overview",
+            "x": 1495,
+            "y": 150,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_colorado"
+          }
+        ]
+      },
+      {
+        "name": "Hokkaido Disguise Checks",
+        "access_rules": ["Level - Hokkaido"],
+        "sections": [
+          {
+            "name": "Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Resort Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Chief Surgeon",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Helicopter Pilot",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Hospital Director",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "VIP Patient (Dexter)",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "VIP Patient (Portman)",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Yoga Instructor",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Chef", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Doctor", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Handyman", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Morgue Doctor",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Resort Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Surgeon", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Motorcyclist",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Baseball Player",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hokkaido_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_hokkaido"
+          },
+          {
+            "map": "overview",
+            "x": 1784,
+            "y": 150,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_hokkaido"
+          }
+        ]
+      },
+      {
+        "name": "Hawkes Bay Disguise Checks",
+        "access_rules": ["Level - Hawkes Bay"],
+        "sections": [
+          { "name": "Bodyguard", "visibility_rules": ["option_disguisesanity"] }
+        ],
+        "map_locations": [
+          {
+            "map": "hawkes_bay_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_hawkes_bay"
+          },
+          {
+            "map": "overview",
+            "x": 50,
+            "y": 375,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_hawkes_bay"
+          }
+        ]
+      },
+      {
+        "name": "Miami Disguise Checks",
+        "access_rules": ["Level - Miami"],
+        "sections": [
+          {
+            "name": "Race Coordinator",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Kronstadt Mechanic",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Kowoon Mechanic",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Aeon Mechanic",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Thwack Mechanic",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Sotteraneo Mechanic",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Kowoon Driver",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Aeon Driver",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Blue Seed Driver",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Thwack Driver",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Mascot", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Ted Mendez",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Kronstadt Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Event Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Event Crew",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Kitchen Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Race Marshal",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Waiter", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Kronstadt Researcher",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Kronstadt Engineer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Moses Lee",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Pale Rider",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Medic", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Food Vendor",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Journalist",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Street Musician",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Sheik", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Crashed Driver Kronstadt",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Florida Man",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "miami_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_miami"
+          },
+          {
+            "map": "overview",
+            "x": 339,
+            "y": 375,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_miami"
+          }
+        ]
+      },
+      {
+        "name": "Santa Fortuna Disguise Checks",
+        "access_rules": ["Level - Santa Fortuna"],
+        "sections": [
+          { "name": "Shaman", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Tattooist (P-Power)",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Band Member (Drummer)",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Submarine Engineer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Hippo Whisperer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Hippie", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Street Soldier",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Construction Worker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Barman", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Mansion Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Chef", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Gardener", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Mansion Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Coca Field Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Coca Field Worker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Drug Lab Worker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Elite Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Submarine Crew",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "santa_fortuna_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_santa_fortuna"
+          },
+          {
+            "map": "overview",
+            "x": 628,
+            "y": 375,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_santa_fortuna"
+          }
+        ]
+      },
+      {
+        "name": "Mumbai Disguise Checks",
+        "access_rules": ["Level - Mumbai"],
+        "sections": [
+          {
+            "name": "Bollywood Crew",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Vanya' Servant",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Dancer", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Metal Worker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Food Vendor",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Laundry Worker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Thug", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Queen's Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Queen's Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Elite Thug",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Local Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Bollywood Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Tailor", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Painter", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Kashmirian",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Holy Man", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Lead Actor",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Barber", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Laundry Foreman",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mumbai_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_mumbai"
+          },
+          {
+            "map": "overview",
+            "x": 917,
+            "y": 375,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_mumbai"
+          }
+        ]
+      },
+      {
+        "name": "Whittleton Creek Disguise Checks",
+        "access_rules": ["Level - Whittleton Creek"],
+        "sections": [
+          {
+            "name": "Janus' Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "James Batty",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "BBQ Owner",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Nurse", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Server", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Politician",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Construction Worker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Spencer \"The Hammer\" Green",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Cassidy Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Sheriff Masterson",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Mailman", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Gardener", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Gunther Mueller",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Politician's Assistant",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Exterminator",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Police Deputy",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Real Estate Broker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Garbage Man",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Plumber", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Arkian Robe",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "whittleton_creek_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_whittleton_creek"
+          },
+          {
+            "map": "overview",
+            "x": 1206,
+            "y": 375,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_whittleton_creek"
+          }
+        ]
+      },
+      {
+        "name": "Isle of Sgail Disguise Checks",
+        "access_rules": ["Level - Isle of Sgail"],
+        "sections": [
+          {
+            "name": "Master of Ceremonies",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Ark Member",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Architect",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Initiate", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Entertainer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Burial Robes",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Blake Nathaniel",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Jebediah Block",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Knight’s Armour",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Guard", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Raider", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Elite Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Chef", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Custodian",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Event Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Butler", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Castle Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "isle_of_sgail_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_isle_of_sgail"
+          },
+          {
+            "map": "overview",
+            "x": 1495,
+            "y": 375,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_isle_of_sgail"
+          }
+        ]
+      },
+      {
+        "name": "New York Disguise Checks",
+        "access_rules": ["Level - New York"],
+        "sections": [
+          {
+            "name": "High Security Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Investment Banker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "IT Worker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Security Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Janitor", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Bank Teller",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Bank Robber",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Fired Banker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Job Applicant",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "new_york_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_new_york"
+          },
+          {
+            "map": "overview",
+            "x": 1784,
+            "y": 375,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_new_york"
+          }
+        ]
+      },
+      {
+        "name": "Haven Island Disguise Checks",
+        "access_rules": ["Level - Haven Island"],
+        "sections": [
+          {
+            "name": "Boat Captain",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Snorkel Instructor",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Villa Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Personal Trainer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Life Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Waiter", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Chef", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Gas Suit", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Villa Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Resort Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Masseur", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Resort Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Swimwear", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Doctor", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Butler", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Tech Crew", "visibility_rules": ["option_disguisesanity"] }
+        ],
+        "map_locations": [
+          {
+            "map": "haven_island_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_haven_island"
+          },
+          {
+            "map": "overview",
+            "x": 2073,
+            "y": 375,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_haven_island"
+          }
+        ]
+      },
+      {
+        "name": "Dubai Disguise Checks",
+        "access_rules": ["Level - Dubai"],
+        "sections": [
+          {
+            "name": "The Assassin",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Famous Chef",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Penthouse Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Event Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Helicopter Pilot",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Penthouse Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Event Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Maintenance Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Kitchen Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Art Crew", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Ingram's Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dubai_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_dubai"
+          },
+          {
+            "map": "overview",
+            "x": 50,
+            "y": 580,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_dubai"
+          }
+        ]
+      },
+      {
+        "name": "Dartmoor Disguise Checks",
+        "access_rules": ["Level - Dartmoor"],
+        "sections": [
+          {
+            "name": "Private Investigator",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Undertaker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Lawyer", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Photographer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Mansion Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Mansion Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Gardener", "visibility_rules": ["option_disguisesanity"] }
+        ],
+        "map_locations": [
+          {
+            "map": "dartmoor_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_dartmoor"
+          },
+          {
+            "map": "overview",
+            "x": 339,
+            "y": 580,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_dartmoor"
+          }
+        ]
+      },
+      {
+        "name": "Berlin Disguise Checks",
+        "access_rules": ["Level - Berlin"],
+        "sections": [
+          {
+            "name": "Technician",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Florida Man",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Delivery Guy",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Dealer", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Club Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Club Crew",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Bartender",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Biker", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Rolf Hirschmüller",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "DJ", "visibility_rules": ["option_disguisesanity"] }
+        ],
+        "map_locations": [
+          {
+            "map": "berlin_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_berlin"
+          },
+          {
+            "map": "overview",
+            "x": 628,
+            "y": 580,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_berlin"
+          }
+        ]
+      },
+      {
+        "name": "Chongqing Disguise Checks",
+        "access_rules": ["Level - Chongqing"],
+        "sections": [
+          {
+            "name": "Street Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Homeless Person",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Dumpling Cook",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "The Board Member",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Facility Analyst",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Facility Engineer",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Researcher",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Block Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Perfect Test Subject",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Facility Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Facility Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "chongqing_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_chongqing"
+          },
+          {
+            "map": "overview",
+            "x": 917,
+            "y": 580,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_chongqing"
+          }
+        ]
+      },
+      {
+        "name": "Mendoza Disguise Checks",
+        "access_rules": ["Level - Mendoza"],
+        "sections": [
+          { "name": "Gaucho", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Mercenary",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Bodyguard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Providence Herald",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Tango Musician",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Asado Chef",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Waiter", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Sommelier",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Winery Worker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Lawyer", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Head of Security",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Chief Winemaker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Tactical Wetsuit",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "47's Signature Suit with Gloves",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Corvo Black",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mendoza_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_mendoza"
+          },
+          {
+            "map": "overview",
+            "x": 1206,
+            "y": 580,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_mendoza"
+          }
+        ]
+      },
+      {
+        "name": "Carpathian Mountains Disguise Checks",
+        "access_rules": ["Level - Carpathian Mountains"],
+        "sections": [
+          {
+            "name": "Providence Security Guard A",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Providence Commando",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Providence Commando Leader",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Providence Elite Guard",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Providence Security Guard B",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Providence Doctor",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          {
+            "name": "Office Staff",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "carpathian_mountains_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_carpathian_mountains"
+          },
+          {
+            "map": "overview",
+            "x": 1495,
+            "y": 580,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_carpathian_mountains"
+          }
+        ]
+      },
+      {
+        "name": "Ambrose Island Disguise Checks",
+        "access_rules": ["Level - Ambrose Island"],
+        "sections": [
+          { "name": "Engineer", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Militia Soldier",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Cook", "visibility_rules": ["option_disguisesanity"] },
+          { "name": "Hippie", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "Metal Worker",
+            "visibility_rules": ["option_disguisesanity"]
+          },
+          { "name": "Pirate", "visibility_rules": ["option_disguisesanity"] },
+          {
+            "name": "The Buccaneer",
+            "visibility_rules": ["option_disguisesanity"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ambrose_island_0",
+            "x": 120,
+            "y": 20,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_ambrose_island"
+          },
+          {
+            "map": "overview",
+            "x": 1784,
+            "y": 580,
+            "size": 30,
+            "restrict_visibility_rules": "option_enable_ambrose_island"
+          }
+        ]
+      }
+    ]
   }
 ]

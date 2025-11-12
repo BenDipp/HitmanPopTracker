@@ -146,6 +146,13 @@
     "initial_active_state": true
   },
   {
+    "name": "Disguise Checks",
+    "type": "toggle",
+    "img": "images/items/disguise.png",
+    "codes": "option_disguisesanity",
+    "initial_active_state": true
+  },
+  {
     "name": "Level completion checks",
     "type": "static",
     "img": "images/items/complete.png",
