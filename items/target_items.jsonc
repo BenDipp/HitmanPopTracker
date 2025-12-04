@@ -15912,7 +15912,7 @@
     "initial_active_state": false
   },
   {
-    "name": "Enabled Elimination - Isle of Sgail - Catherine ?Kiki? Zola",
+    "name": "Enabled Elimination - Isle of Sgail - Catherine \"Kiki\" Zola",
     "type": "toggle",
     "codes": "option_target_7652",
     "initial_active_state": false
@@ -26835,6 +26835,30 @@
     "name": "Enabled Elimination - Berlin - Agent Price",
     "type": "toggle",
     "codes": "option_target_9502",
+    "initial_active_state": false
+  },
+  {
+    "name": "Enabled Elimination - Mendoza - Diana Burnwood",
+    "type": "toggle",
+    "codes": "option_target_9503",
+    "initial_active_state": false
+  },
+  {
+    "name": "Enabled Elimination - Santa Fortuna - María Luisa Zamorano",
+    "type": "toggle",
+    "codes": "option_target_9504",
+    "initial_active_state": false
+  },
+  {
+    "name": "Enabled Elimination - Dartmoor - Leonard Gore",
+    "type": "toggle",
+    "codes": "option_target_9505",
+    "initial_active_state": false
+  },
+  {
+    "name": "Enabled Elimination - Dartmoor - Samantha Hunter",
+    "type": "toggle",
+    "codes": "option_target_9506",
     "initial_active_state": false
   }
 ]

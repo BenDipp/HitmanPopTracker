@@ -220,8 +220,8 @@
           { "name": "Apricot", "hosted_item": "Apricot" },
           { "name": "Bartoli 12G", "hosted_item": "Bartoli 12G" },
           { "name": "Bartoli 75R", "hosted_item": "Bartoli 75R" },
-          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Baseball Bat", "hosted_item": "Baseball Bat" },
+          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Branding Iron", "hosted_item": "Branding Iron" },
           { "name": "Brick", "hosted_item": "Brick" },
           { "name": "Cleaver", "hosted_item": "Cleaver" },
@@ -390,8 +390,8 @@
           { "name": "Apricot", "hosted_item": "Apricot" },
           { "name": "Bag of Sugar", "hosted_item": "Bag of Sugar" },
           { "name": "Bartoli 75R", "hosted_item": "Bartoli 75R" },
-          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Baseball Bat", "hosted_item": "Baseball Bat" },
+          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Battle Axe", "hosted_item": "Battle Axe" },
           { "name": "Brick", "hosted_item": "Brick" },
           { "name": "Bust", "hosted_item": "Bust" },
@@ -455,8 +455,8 @@
           { "name": "Barber Razor", "hosted_item": "Barber Razor" },
           { "name": "Bartoli 12G", "hosted_item": "Bartoli 12G" },
           { "name": "Bartoli 75S", "hosted_item": "Bartoli 75S" },
-          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Baseball Bat", "hosted_item": "Baseball Bat" },
+          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Brick", "hosted_item": "Brick" },
           { "name": "Car Battery", "hosted_item": "Car Battery" },
           { "name": "Claw Hammer", "hosted_item": "Claw Hammer" },
@@ -512,8 +512,8 @@
           { "name": "Sacrificial Knife", "hosted_item": "Sacrificial Knife" },
           { "name": "Scissors", "hosted_item": "Scissors" },
           { "name": "Screwdriver", "hosted_item": "Screwdriver" },
-          { "name": "Shashka A33", "hosted_item": "Shashka A33" },
           { "name": "Shashka A33 Gold", "hosted_item": "Shashka A33 Gold" },
+          { "name": "Shashka A33", "hosted_item": "Shashka A33" },
           { "name": "Shovel", "hosted_item": "Shovel" },
           { "name": "Soda Can", "hosted_item": "Soda Can" },
           { "name": "Wrench", "hosted_item": "Wrench" }
@@ -592,8 +592,8 @@
           { "name": "\"Rude Ruby\"", "hosted_item": "\"Rude Ruby\"" },
           { "name": "Apple", "hosted_item": "Apple" },
           { "name": "Bartoli 75R", "hosted_item": "Bartoli 75R" },
-          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Baseball Bat", "hosted_item": "Baseball Bat" },
+          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Battle Axe", "hosted_item": "Battle Axe" },
           { "name": "Beak Staff", "hosted_item": "Beak Staff" },
           { "name": "Blueberry Muffin", "hosted_item": "Blueberry Muffin" },
@@ -605,11 +605,11 @@
           { "name": "Cigar Box", "hosted_item": "Cigar Box" },
           { "name": "Coin", "hosted_item": "Coin" },
           { "name": "Crowbar", "hosted_item": "Crowbar" },
-          { "name": "DAK X2", "hosted_item": "DAK X2" },
           {
             "name": "DAK X2 Covert Special",
             "hosted_item": "DAK X2 Covert Special"
           },
+          { "name": "DAK X2", "hosted_item": "DAK X2" },
           { "name": "Emetic Pills", "hosted_item": "Emetic Pills" },
           { "name": "Emetic Rat Poison", "hosted_item": "Emetic Rat Poison" },
           {
@@ -705,12 +705,12 @@
           { "name": "Frying Pan", "hosted_item": "Frying Pan" },
           { "name": "Fusil G2", "hosted_item": "Fusil G2" },
           { "name": "Gold Idol", "hosted_item": "Gold Idol" },
+          { "name": "Hackl 9S Covert", "hosted_item": "Hackl 9S Covert" },
           {
             "name": "Hackl 9S",
             "hosted_item": "Hackl 9S",
             "visibility_rules": "option_non_master"
           },
-          { "name": "Hackl 9S Covert", "hosted_item": "Hackl 9S Covert" },
           { "name": "Hammer", "hosted_item": "Hammer" },
           { "name": "Hatchet", "hosted_item": "Hatchet" },
           { "name": "HX-10", "hosted_item": "HX-10" },
@@ -849,8 +849,8 @@
           { "name": "Banana", "hosted_item": "Banana" },
           { "name": "Barber Razor", "hosted_item": "Barber Razor" },
           { "name": "Bartoli 75S", "hosted_item": "Bartoli 75S" },
-          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Baseball Bat", "hosted_item": "Baseball Bat" },
+          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Blueberry Muffin", "hosted_item": "Blueberry Muffin" },
           { "name": "Cheeseburger", "hosted_item": "Cheeseburger" },
           { "name": "Cleaver", "hosted_item": "Cleaver" },
@@ -1077,8 +1077,8 @@
             "name": "Bartoli Woodsman Hunting Rifle",
             "hosted_item": "Bartoli Woodsman Hunting Rifle"
           },
-          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Baseball Bat", "hosted_item": "Baseball Bat" },
+          { "name": "Baseball", "hosted_item": "Baseball" },
           { "name": "Battle Axe", "hosted_item": "Battle Axe" },
           { "name": "Bird's Egg", "hosted_item": "Bird's Egg" },
           { "name": "Blueberry Muffin", "hosted_item": "Blueberry Muffin" },
@@ -1319,11 +1319,11 @@
           { "name": "Fiber Wire", "hosted_item": "Fiber Wire" },
           { "name": "Fire Axe", "hosted_item": "Fire Axe" },
           { "name": "Fire Extinguisher", "hosted_item": "Fire Extinguisher" },
-          { "name": "Flash Grenade", "hosted_item": "Flash Grenade" },
           {
             "name": "Flash Grenade Mk III",
             "hosted_item": "Flash Grenade Mk III"
           },
+          { "name": "Flash Grenade", "hosted_item": "Flash Grenade" },
           {
             "name": "Fragmentation Grenade",
             "hosted_item": "Fragmentation Grenade"
@@ -1437,8 +1437,8 @@
           { "name": "Scrap Sword", "hosted_item": "Scrap Sword" },
           { "name": "Screwdriver", "hosted_item": "Screwdriver" },
           { "name": "Seashell", "hosted_item": "Seashell" },
-          { "name": "Shashka A33", "hosted_item": "Shashka A33" },
           { "name": "Shashka A33 Gold", "hosted_item": "Shashka A33 Gold" },
+          { "name": "Shashka A33", "hosted_item": "Shashka A33" },
           { "name": "Shears", "hosted_item": "Shears" },
           { "name": "Shovel", "hosted_item": "Shovel" },
           { "name": "Soap", "hosted_item": "Soap" },
@@ -62223,6 +62223,10 @@
           {
             "name": "Vero Valencia Verduzco",
             "visibility_rules": ["option_target_checks,option_target_7161"]
+          },
+          {
+            "name": "María Luisa Zamorano",
+            "visibility_rules": ["option_target_checks,option_target_9504"]
           }
         ],
         "map_locations": [
@@ -64251,7 +64255,7 @@
             "visibility_rules": ["option_target_checks,option_target_7651"]
           },
           {
-            "name": "Catherine ?Kiki? Zola",
+            "name": "Catherine \"Kiki\" Zola",
             "visibility_rules": ["option_target_checks,option_target_7652"]
           },
           {
@@ -68129,6 +68133,14 @@
           {
             "name": "Oliver Hill",
             "visibility_rules": ["option_target_checks,option_target_8599"]
+          },
+          {
+            "name": "Leonard Gore",
+            "visibility_rules": ["option_target_checks,option_target_9505"]
+          },
+          {
+            "name": "Samantha Hunter",
+            "visibility_rules": ["option_target_checks,option_target_9506"]
           }
         ],
         "map_locations": [
@@ -70975,6 +70987,10 @@
           {
             "name": "Reece John",
             "visibility_rules": ["option_target_checks,option_target_9293"]
+          },
+          {
+            "name": "Diana Burnwood",
+            "visibility_rules": ["option_target_checks,option_target_9503"]
           }
         ],
         "map_locations": [
