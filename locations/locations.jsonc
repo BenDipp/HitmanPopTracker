@@ -254,6 +254,7 @@
           { "name": "Propane Flask", "hosted_item": "Propane Flask" },
           { "name": "Screwdriver", "hosted_item": "Screwdriver" },
           { "name": "Shovel", "hosted_item": "Shovel" },
+          { "name": "Small Pumpkin", "hosted_item": "Small Pumpkin" },
           { "name": "Soda Can", "hosted_item": "Soda Can" },
           {
             "name": "Tactical Bartoli 12G",
@@ -1676,6 +1677,7 @@
           { "name": "Propane Flask" },
           { "name": "Screwdriver" },
           { "name": "Shovel" },
+          { "name": "Small Pumpkin" },
           { "name": "Soda Can" },
           { "name": "Tactical Bartoli 12G" },
           { "name": "Wrench" }
@@ -52521,6 +52523,181 @@
             "map_locations": [
               { "map": "carpathian_mountains_3", "x": 3834, "y": 48 }
             ]
+          }
+        ]
+      },
+      {
+        "name": "2962",
+        "children": [
+          {
+            "name": "Hammer",
+            "sections": [
+              {
+                "name": "Carried by Resort Staff",
+                "ref": "ItemList/Haven Island/Hammer"
+              },
+              {
+                "name": "Carried by Resort Staff ",
+                "ref": "Split ItemList/Haven Island/Hammer"
+              }
+            ],
+            "map_locations": [{ "map": "haven_island_0", "x": 334, "y": 530 }]
+          }
+        ]
+      },
+      {
+        "name": "2963",
+        "children": [
+          {
+            "name": "Soda Can",
+            "sections": [
+              {
+                "name": "Itempickup",
+                "ref": "ItemList/Santa Fortuna/Soda Can"
+              },
+              {
+                "name": "Itempickup ",
+                "ref": "Split ItemList/Santa Fortuna/Soda Can"
+              }
+            ],
+            "map_locations": [{ "map": "santa_fortuna_1", "x": 671, "y": 815 }]
+          }
+        ]
+      },
+      {
+        "name": "2964",
+        "children": [
+          {
+            "name": "Screwdriver",
+            "sections": [
+              { "name": "Itempickup", "ref": "ItemList/Miami/Screwdriver" },
+              {
+                "name": "Itempickup ",
+                "ref": "Split ItemList/Miami/Screwdriver"
+              }
+            ],
+            "map_locations": [{ "map": "miami_0", "x": 556, "y": 616 }]
+          }
+        ]
+      },
+      {
+        "name": "2965",
+        "children": [
+          {
+            "name": "Coin",
+            "sections": [
+              { "name": "Itempickup", "ref": "ItemList/Miami/Coin" },
+              { "name": "Itempickup ", "ref": "Split ItemList/Miami/Coin" }
+            ],
+            "map_locations": [{ "map": "miami_0", "x": 769, "y": 576 }]
+          }
+        ]
+      },
+      {
+        "name": "2966",
+        "children": [
+          {
+            "name": "Coconut",
+            "sections": [
+              { "name": "Itempickup", "ref": "ItemList/Miami/Coconut" },
+              { "name": "Itempickup ", "ref": "Split ItemList/Miami/Coconut" }
+            ],
+            "map_locations": [{ "map": "miami_0", "x": 903, "y": 368 }]
+          }
+        ]
+      },
+      {
+        "name": "2967",
+        "children": [
+          {
+            "name": "Small Pumpkin",
+            "sections": [
+              {
+                "name": "Itempickup",
+                "ref": "ItemList/Colorado/Small Pumpkin"
+              },
+              {
+                "name": "Itempickup ",
+                "ref": "Split ItemList/Colorado/Small Pumpkin"
+              }
+            ],
+            "map_locations": [{ "map": "colorado_0", "x": 240, "y": 390 }]
+          }
+        ]
+      },
+      {
+        "name": "2968",
+        "children": [
+          {
+            "name": "Small Pumpkin",
+            "sections": [
+              {
+                "name": "Itempickup",
+                "ref": "ItemList/Colorado/Small Pumpkin"
+              },
+              {
+                "name": "Itempickup ",
+                "ref": "Split ItemList/Colorado/Small Pumpkin"
+              }
+            ],
+            "map_locations": [{ "map": "colorado_0", "x": 319, "y": 554 }]
+          }
+        ]
+      },
+      {
+        "name": "2969",
+        "children": [
+          {
+            "name": "Small Pumpkin",
+            "sections": [
+              {
+                "name": "Itempickup",
+                "ref": "ItemList/Colorado/Small Pumpkin"
+              },
+              {
+                "name": "Itempickup ",
+                "ref": "Split ItemList/Colorado/Small Pumpkin"
+              }
+            ],
+            "map_locations": [{ "map": "colorado_0", "x": 492, "y": 508 }]
+          }
+        ]
+      },
+      {
+        "name": "2970",
+        "children": [
+          {
+            "name": "Small Pumpkin",
+            "sections": [
+              {
+                "name": "Itempickup",
+                "ref": "ItemList/Colorado/Small Pumpkin"
+              },
+              {
+                "name": "Itempickup ",
+                "ref": "Split ItemList/Colorado/Small Pumpkin"
+              }
+            ],
+            "map_locations": [{ "map": "colorado_0", "x": 735, "y": 448 }]
+          }
+        ]
+      },
+      {
+        "name": "2971",
+        "children": [
+          {
+            "name": "Small Pumpkin",
+            "sections": [
+              {
+                "name": "Itempickup",
+                "ref": "ItemList/Colorado/Small Pumpkin"
+              },
+              {
+                "name": "Itempickup ",
+                "ref": "Split ItemList/Colorado/Small Pumpkin"
+              }
+            ],
+            "map_locations": [{ "map": "colorado_1", "x": 265, "y": 199 }]
           }
         ]
       }
