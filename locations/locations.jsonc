@@ -28862,11 +28862,11 @@
             "name": "Battle Axe",
             "sections": [
               {
-                "name": "Itempickup",
+                "name": "Open the vault door, open the Schmidt Property's garage, and then ring the Schmidt Property's doorbell 3 times to open.",
                 "ref": "ItemList/Whittleton Creek/Battle Axe"
               },
               {
-                "name": "Itempickup ",
+                "name": "Open the vault door, open the Schmidt Property's garage, and then ring the Schmidt Property's doorbell 3 times to open. ",
                 "ref": "Split ItemList/Whittleton Creek/Battle Axe"
               }
             ],
@@ -49210,14 +49210,8 @@
           {
             "name": "Torch",
             "sections": [
-              {
-                "name": "Can be used to light the Asado pit (Asador challenge)",
-                "ref": "ItemList/Mendoza/Torch"
-              },
-              {
-                "name": "Can be used to light the Asado pit (Asador challenge) ",
-                "ref": "Split ItemList/Mendoza/Torch"
-              }
+              { "name": "Itempickup", "ref": "ItemList/Mendoza/Torch" },
+              { "name": "Itempickup ", "ref": "Split ItemList/Mendoza/Torch" }
             ],
             "map_locations": [{ "map": "mendoza_4", "x": 606, "y": 456 }]
           }
@@ -50401,11 +50395,11 @@
             "name": "Sieger 300 Tactical",
             "sections": [
               {
-                "name": "Used by the sniper in the Mission Story 'Eyes on Target'",
+                "name": "Itempickup",
                 "ref": "ItemList/Mendoza/Sieger 300 Tactical"
               },
               {
-                "name": "Used by the sniper in the Mission Story 'Eyes on Target' ",
+                "name": "Itempickup ",
                 "ref": "Split ItemList/Mendoza/Sieger 300 Tactical"
               }
             ],
@@ -51431,11 +51425,11 @@
             "name": "Bartoli 75S",
             "sections": [
               {
-                "name": "Sometimes you won't be able to pick it up, so reload a previous save if that happens",
+                "name": "Blend in as Mercenary or Head of Security",
                 "ref": "ItemList/Mendoza/Bartoli 75S"
               },
               {
-                "name": "Sometimes you won't be able to pick it up, so reload a previous save if that happens ",
+                "name": "Blend in as Mercenary or Head of Security ",
                 "ref": "Split ItemList/Mendoza/Bartoli 75S"
               }
             ],
