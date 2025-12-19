@@ -6,5 +6,5 @@ Poptracker: https://github.com/black-sliver/PopTracker
 
 Corresponding Archipelago World: https://github.com/BenDipp/Archipelago/releases/latest
 
-![Screenshot_Overview](../images/screenshots/overview.png?raw=true "Screenshot")
-![Screenshot_Marrakesh](../images/screenshots/marrakesh.png?raw=true "Screenshot")
+![Screenshot_Overview](images/screenshots/overview.png "Screenshot")
+![Screenshot_Marrakesh](images/screenshots/marrakesh.png "Screenshot")
