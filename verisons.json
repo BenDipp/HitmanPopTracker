@@ -1,6 +1,14 @@
 {
     "versions" : [
 		{
+			"package_version": "0.4.0",
+			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.4.0/HitmanPopTracker_0.4.0.zip",
+			"sha256": "75ee17985369ca990905be1042038b9ee24e22a92617dc0755fb758f0dd0b403",
+			"changelog": [
+				"Added new targets and Pumpkins from AP-Version 0.7.0"
+			]
+        },
+		{
 			"package_version": "0.3.0",
 			"download_url": "https://github.com/BenDipp/HitmanPopTracker/releases/download/v0.3.0/HitmanPopTracker_0.3.0.zip",
 			"sha256": "ce29130ca2801f90871d2de9ea383f431535ae505a41b72ce6ddaf36ba8b7b1d",
