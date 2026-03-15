@@ -82,6 +82,27 @@ local maps = {"ica_facility", "paris", "sapienza", "marrakesh", "bangkok", "colo
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
 	Tracker.BulkUpdate = true
+    for i=1,210 do
+        Tracker:FindObjectForCode("option_sanity_"..i).Active = false
+	end
+    for i=1500,2415 do
+        Tracker:FindObjectForCode("option_sanity_"..i).Active = false
+	end
+    for i=3000,3289 do
+        Tracker:FindObjectForCode("option_sanity_"..i).Active = false
+	end
+	for i, apId in ipairs(Archipelago.MissingLocations) do
+        obj = Tracker:FindObjectForCode("option_sanity_"..(apId - 2023011800))
+        if obj ~= nil then
+            obj.Active = true
+        end
+    end
+	for i, apId in ipairs(Archipelago.CheckedLocations) do
+        obj = Tracker:FindObjectForCode("option_sanity_"..(apId - 2023011800))
+        if obj ~= nil then
+            obj.Active = true
+        end
+    end
 
 	if slot_data["difficulty"] == "easy" then
 		Tracker:FindObjectForCode("option_master").CurrentStage = 1
